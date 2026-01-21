@@ -34,6 +34,7 @@ For henvendelser av administrative art send e-post til: <hhcampus@hjelp.uit.no>.
 I BED-1304 *Python-lab* har vi ingen bok, men vi har følgende pensum:
 * Forelesninger, og forelesningsnotater (Jupyter Notebooks).
 * Repetisjonsark til hvert av temaene.
+* Det finnes også en GitHub-bok, som viser forelesningsnotatene, pensum og repetisjonsoppgaver. Den finner dere [her](https://markusaase97.github.io/BED-1304-bok/notebooks/00/intro.html).
 
 ## Kunngjøringer  
 Kunngjøringer og beskjeder legges ut i [Canvas](https://uit.instructure.com/){:target="blank"}.
