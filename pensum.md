@@ -1,6 +1,8 @@
 {% include navbar.html %}{% include top-box.html %}
 ## 🚀 Læringssti i programmering
+Her finner dere en systematisk læringssti dere kan følge selv. Den består av masse videoer, og oppgaver.
 
+Dette vil ikke erstatte fysisk forelesning og seminar. Forelesningsnotatene er samlet i en egen GitHub-bok for faget, [trykk her](https://markusaase97.github.io/BED-1304-bok/notebooks/00/intro.html) for å komme til boka.
 ___
 
 | **Tema** | **Introduksjonsvideo** | **Videoer i detalj** | **Oppgaver/progresjon** |
