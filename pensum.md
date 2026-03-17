@@ -19,9 +19,10 @@ ___
 - Start med “før forelesning”-videoen  
 - Se gjennom detaljvideoene  
 - Jobb med oppgaver. Her finner dere en rekke pdf’er for de ulike forelesningene. Disse gir dere litt repetisjon, og oppgaver/løsningsforslag knyttet til forelesningene. Totalt sett, vil dette gå igjennom en god del av pensum i faget. Likevel, anbefaler jeg å møte i forelesning/seminar for å få presentert stoffet og bruke ressursene her som repetisjon for å terpe på fagstoffet.
-- **Husk:** Øvelse gjør mester!
-- **Husk::** Dere er ansvalig for **egen læring**! Gå i gjennom forelesningsnotatene grundig, for å dekke hele pensum. Seminar-filene har også masse oppgaver. Videoene er også pensum.
+- **Husk:** Dere er ansvalig for **egen læring**! Gå i gjennom forelesningsnotatene grundig, for å dekke hele pensum. Seminar-filene har også masse oppgaver. Videoene er også pensum.
+- Øvelse gjør mester!
 ---
+
 ### 🎓 Prøve-eksamen
 Her vil det legges ut en ekstra prøve-eksamen, som er ment for repetisjon av Python lab. Les beskrivelsen i dokuementet.
 
