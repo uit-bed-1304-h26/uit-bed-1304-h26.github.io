@@ -26,6 +26,11 @@ ___
 - Øvelse gjør mester!
 ---
 
+### Case oppgaver
+For å bli gode i programmering, kan man ikke bare lese pensum, man må kode, få feilmeldinger, rive seg litt i håret og plutselig få det til. Da vil man stille seg spørsmålet, *hvorfor funka dette?* eller *hvorfor funka det ikke?*, begge er gode spørsmål - og nyttige å reflektere over i læringsprosessen.
+
+Under her vil jeg publisere en rekke case-oppgaver, som krever at dere anvender programmering-skillsa deres!
+
 ### 🎓 Prøve-eksamen
 Her vil det legges ut en ekstra prøve-eksamen, som er ment for repetisjon av Python lab. Les beskrivelsen i dokuementet.
 
