@@ -31,7 +31,13 @@ For å bli gode i programmering, kan man ikke bare lese pensum, man må kode, f�
 
 Under her vil jeg publisere en rekke case-oppgaver, som krever at dere anvender programmering-skillsa deres!
 
-#### The basics
+#### ➕➖ The basics ➗✖️
+I case-oppgaven under her, står oppgaver som dekker noe av basics'ene (fra forelesning 1 og forelesning 2). 
+
+#### 👩‍💻Programmering og AI 👨‍💻
+Vi lever i en tid for generativ AI blir en del av hverdagen vår. Søker vi på *Google* så får vi opp AI-forslag på svarene våres, leser vi nyheter på NRK så er det en AI-oppsummering og teksten her er korrektur-lest ved hjelp av AI - uansett!
+
+Programmering har vært viktig i mange år, og vil fortsatt være viktig. Mange kan stille seg spørsmålet, *trenger jeg å kunne kode, kan bare spørre AI?* Dette er et legitimt spørsmål, men fanger ikke hele bredden. Ja, vi har generativ AI til å hjelpe oss å skrive kode - likevel trenger vi fortsatt folk som **forstår** koden produsert av generativ AI! Vi trenger fortsatt økonomer, som skal telle pengene til bedrifter, samfunnet, pensjonen vår og eksemplene er mange. Derfor er oppgavesettet under her en øving i nemlig det å kunne bruke AI, men også forstå hva som kommer ut i andre enden. Eksamen i dette kurset vil også teste deres evne i å tolke og forstå kode, så dette er en skill dere har bruk for på eksamen, og mest sannsynlig, der dere ender opp med å jobbe!
 
 ### 🎓 Prøve-eksamen
 Her vil det legges ut en ekstra prøve-eksamen, som er ment for repetisjon av Python lab. Les beskrivelsen i dokuementet.
