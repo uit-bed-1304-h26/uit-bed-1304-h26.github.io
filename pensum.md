@@ -31,6 +31,8 @@ For å bli gode i programmering, kan man ikke bare lese pensum, man må kode, f�
 
 Under her vil jeg publisere en rekke case-oppgaver, som krever at dere anvender programmering-skillsa deres!
 
+#### The basics
+
 ### 🎓 Prøve-eksamen
 Her vil det legges ut en ekstra prøve-eksamen, som er ment for repetisjon av Python lab. Les beskrivelsen i dokuementet.
 
