@@ -6,16 +6,16 @@ Dette vil ikke erstatte fysisk forelesning og seminar. Forelesningsnotatene er s
 
 ___
 
-| **Tema** | **Introduksjonsvideo** | **Videoer i detalj** | **Oppgaver/progresjon** |
-| 🟢 1. Introduksjon |  | [Velkommen](https://youtu.be/DPkvKuK4B5A) · [Installasjon](https://youtu.be/lYwkKKI9Fnw) | Gjør dere kjent med Python |
-| 🐍 2. Python Basics | ▶️ [Før forelesning](https://youtu.be/P7DCjp5QJCk) | [Variabler/datatyper](https://youtu.be/rctSMn1f1jM) · [Operatorer](https://youtu.be/qilshscGVy8) · [Kode-session](https://youtu.be/UyOo273-3p8) | <a href="oppgaver/PythonBasicsRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 🔢 3. Funksjoner | ▶️ [Før forelesning](https://youtu.be/u1FSeJdB3LU) | [Hva er en funksjon?](https://youtu.be/WxZAB8j8epA) · [Koding i Python](https://youtu.be/xw3ZyC0pe-0) | <a href="oppgaver/FunksjonerRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 🗒 4. Lister, dictionaries og NumPy | ▶️ [Før forelesning](https://youtu.be/kgcOG7q2dq4) | [Lister og tuples](link) · [Dictionaries](link) · [NumPy](link)| <a href="oppgaver/ListerNumpyRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 💻 5. Pandas og databehandling | ▶️ [Før forelesning](https://youtu.be/kPINFf-sdaI) | [Pandas](link) · [Koding](link)  | <a href="oppgaver/PandasRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 🧠 6. Logikk og løkker | ▶️ [Før forelesning](https://youtu.be/YbAtgj7epfY) | [If, elif og else](link) · [For-løkker](link) · [While-løkker](link) · [Koding](link)| <a href="oppgaver/LogikkRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 📊 7. Matplotlib | ▶️ [Før forelesning](https://youtu.be/ALb-Ie-pAx4) | [Visualisering](link) · [Koding](link) · [Visualisering i 3D](link) | <a href="oppgaver/MatplotlibRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 🧮 8. SymPy | ▶️ [Før forelesning](https://youtu.be/XAUuQ5sVijE) | [SymPy](link) · [Tilbud- og etterspørsel](link) · [Koding](link)| <a href="oppgaver/SympyRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 🔬 9. Simulering | ▶️ [Før forelesning](https://youtu.be/Vae0YXmOF8M) | [Simulering](link) · [Koding](link) |<a href="oppgaver/SimuleringRepetisjon.pdf" target="_blank">Oppgaver</a>|
+| **Tema** | **Videoer i detalj** | **Introduksjonsvideo** | **Oppgaver/progresjon** |
+| 🟢 1. Introduksjon | [Velkommen](https://youtu.be/DPkvKuK4B5A) · [Installasjon](https://youtu.be/lYwkKKI9Fnw) |  | Gjør dere kjent med Python |
+| 🐍 2. Python Basics | [Variabler/datatyper](https://youtu.be/rctSMn1f1jM) · [Operatorer](https://youtu.be/qilshscGVy8) · [Kode-session](https://youtu.be/UyOo273-3p8) | ▶️ [Før forelesning](https://youtu.be/P7DCjp5QJCk) | <a href="oppgaver/PythonBasicsRepetisjon.pdf" target="_blank">Oppgaver</a> |
+| 🔢 3. Funksjoner | [Hva er en funksjon?](https://youtu.be/WxZAB8j8epA) · [Koding i Python](https://youtu.be/xw3ZyC0pe-0) | ▶️ [Før forelesning](https://youtu.be/u1FSeJdB3LU) | <a href="oppgaver/FunksjonerRepetisjon.pdf" target="_blank">Oppgaver</a> |
+| 🗒 4. Lister, dictionaries og NumPy | [Lister og tuples](link) · [Dictionaries](link) · [NumPy](link) | ▶️ [Før forelesning](https://youtu.be/kgcOG7q2dq4) | <a href="oppgaver/ListerNumpyRepetisjon.pdf" target="_blank">Oppgaver</a> |
+| 💻 5. Pandas og databehandling | [Pandas](link) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/kPINFf-sdaI) | <a href="oppgaver/PandasRepetisjon.pdf" target="_blank">Oppgaver</a> |
+| 🧠 6. Logikk og løkker | [If, elif og else](link) · [For-løkker](link) · [While-løkker](link) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/YbAtgj7epfY) | <a href="oppgaver/LogikkRepetisjon.pdf" target="_blank">Oppgaver</a> |
+| 📊 7. Matplotlib | [Visualisering](link) · [Koding](link) · [Visualisering i 3D](link) | ▶️ [Før forelesning](https://youtu.be/ALb-Ie-pAx4) | <a href="oppgaver/MatplotlibRepetisjon.pdf" target="_blank">Oppgaver</a> |
+| 🧮 8. SymPy | [SymPy](link) · [Tilbud- og etterspørsel](link) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/XAUuQ5sVijE) | <a href="oppgaver/SympyRepetisjon.pdf" target="_blank">Oppgaver</a> |
+| 🔬 9. Simulering | [Simulering](link) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/Vae0YXmOF8M) | <a href="oppgaver/SimuleringRepetisjon.pdf" target="_blank">Oppgaver</a> |
 
 ---
 ## 🧭 Hvordan bruke siden
@@ -39,6 +39,7 @@ Vi lever i en tid for generativ AI blir en del av hverdagen vår. Søker vi på 
 
 Programmering har vært viktig i mange år, og vil fortsatt være viktig. Mange kan stille seg spørsmålet, *trenger jeg å kunne kode, kan bare spørre AI?* Dette er et legitimt spørsmål, men fanger ikke hele bredden. Ja, vi har generativ AI til å hjelpe oss å skrive kode - likevel trenger vi fortsatt folk som **forstår** koden produsert av generativ AI! Vi trenger fortsatt økonomer, som skal telle pengene til bedrifter, samfunnet, pensjonen vår og eksemplene er mange. Derfor er oppgavesettet under her en øving i nemlig det å kunne bruke AI, men også forstå hva som kommer ut i andre enden. Eksamen i dette kurset vil også teste deres evne i å tolke og forstå kode, så dette er en skill dere har bruk for på eksamen, og mest sannsynlig, der dere ender opp med å jobbe!
 
+----
 ### 🎓 Prøve-eksamen
 Her vil det legges ut en ekstra prøve-eksamen, som er ment for repetisjon av Python lab. Les beskrivelsen i dokuementet.
 
