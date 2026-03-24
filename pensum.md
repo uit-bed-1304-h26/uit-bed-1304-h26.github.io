@@ -2,7 +2,7 @@
 ## 🚀 Læringssti i programmering
 Her finner dere en systematisk læringssti dere kan følge selv. Den består av masse videoer, og oppgaver.
 
-Dette vil ikke erstatte fysisk forelesning og seminar. Forelesningsnotatene er samlet i en egen GitHub-bok for faget, [trykk her](https://markusaase97.github.io/BED-1304-bok/notebooks/00/intro.html) for å komme til boka.
+Dette vil ikke erstatte fysisk forelesning og seminar, se forelesningsplan [her](https://uit-bed-1304-h26.github.io/forelesningsplan.html). Forelesningsnotatene er samlet i en egen GitHub-bok for faget, [trykk her](https://markusaase97.github.io/BED-1304-bok/notebooks/00/intro.html) for å komme til boka.
 
 ___
 
