@@ -34,15 +34,10 @@ Under her vil jeg publisere en rekke case-oppgaver, som krever at dere anvender 
 #### ➕➖ The basics ➗✖️
 I case-oppgaven under her, står oppgaver som dekker noe av basics'ene (fra forelesning 1 og forelesning 2). 
 
----
-layout: default
-title: Pensum
----
-
-{% highlight python %}
+```python
 def f(x):
     return x**2
-{% endhighlight %}
+```
 
 #### 👩‍💻Programmering og AI 👨‍💻
 Vi lever i en tid for generativ AI blir en del av hverdagen vår. Søker vi på *Google* så får vi opp AI-forslag på svarene våres, leser vi nyheter på NRK så er det en AI-oppsummering og teksten her er korrektur-lest ved hjelp av AI - uansett!
