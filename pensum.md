@@ -132,10 +132,22 @@ Målet er ikke bare å få riktig svar, men å forstå hvordan koden fungerer. H
 
 </details>
 
-#### 👩‍💻Programmering og AI 👨‍💻
-Vi lever i en tid for generativ AI blir en del av hverdagen vår. Søker vi på *Google* så får vi opp AI-forslag på svarene våres, leser vi nyheter på NRK så er det en AI-oppsummering og teksten her er korrektur-lest ved hjelp av AI - uansett!
+<details>
+<summary><strong>👩‍💻 Programmering og AI 👨‍💻</strong></summary>
 
-Programmering har vært viktig i mange år, og vil fortsatt være viktig. Mange kan stille seg spørsmålet, *trenger jeg å kunne kode, kan bare spørre AI?* Dette er et legitimt spørsmål, men fanger ikke hele bredden. Ja, vi har generativ AI til å hjelpe oss å skrive kode - likevel trenger vi fortsatt folk som **forstår** koden produsert av generativ AI! Vi trenger fortsatt økonomer, som skal telle pengene til bedrifter, samfunnet, pensjonen vår og eksemplene er mange. Derfor er oppgavesettet under her en øving i nemlig det å kunne bruke AI, men også forstå hva som kommer ut i andre enden. Eksamen i dette kurset vil også teste deres evne i å tolke og forstå kode, så dette er en skill dere har bruk for på eksamen, og mest sannsynlig, der dere ender opp med å jobbe!
+Vi lever i en tid der generativ AI blir en del av hverdagen vår. Søker vi på *Google* får vi opp AI-genererte forslag til svar, leser vi nyheter på NRK finnes det AI-oppsummeringer, og teksten her er korrekturlest ved hjelp av AI – uansett!
+
+Programmering har vært viktig i mange år, og vil fortsatt være det. Mange kan stille seg spørsmålet: *Trenger jeg å kunne kode, eller kan jeg bare spørre AI?* Dette er et legitimt spørsmål, men det fanger ikke hele bildet. Ja, vi har generativ AI som kan hjelpe oss å skrive kode – men vi trenger fortsatt mennesker som **forstår** koden som blir produsert.
+
+Vi trenger fortsatt økonomer som kan analysere tall, forstå sammenhenger og ta beslutninger – enten det gjelder bedrifter, samfunn eller pensjonssystemer. Eksemplene er mange.
+
+Derfor er oppgavesettet under en øving i nettopp dette:
+- å bruke AI som verktøy  
+- men samtidig forstå hva som kommer ut i andre enden  
+
+Eksamen i dette kurset vil også teste deres evne til å tolke og forstå kode. Dette er altså en ferdighet dere trenger både til eksamen – og sannsynligvis i arbeidslivet.
+
+</details>
 
 ----
 ### 🎓 Prøve-eksamen
