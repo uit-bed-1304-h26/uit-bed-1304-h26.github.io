@@ -31,16 +31,11 @@ For å bli gode i programmering, kan man ikke bare lese pensum, man må kode, f�
 
 Under her vil jeg publisere en rekke case-oppgaver, som krever at dere anvender programmering-skillsa deres!
 
-<details>
-<summary><strong>➕➖ The basics ➗✖️</strong><br>
-I case-oppgaven under her, står oppgaver som dekker noe av basics'ene (fra forelesning 1 og forelesning 2).
-</summary>
-
----
-
 Du skal lage et lite Python-program som analyserer en liste med tall. Programmet skal bygges opp steg for steg ved hjelp av funksjoner.
 
 ---
+
+### ➕➖ The basics ➗✖️
 
 **Del 1 – Kom i gang**  
 Lag en liste med minst 10 tall (heltall eller desimaltall).
@@ -130,10 +125,7 @@ Skriv kort om følgende:
 **Viktig:**
 Målet er ikke bare å få riktig svar, men å forstå hvordan koden fungerer. Hvis du bruker AI uten å forstå koden, har du i praksis ikke løst oppgaven.
 
-</details>
-
-<details>
-<summary><strong>👩‍💻 Programmering og AI 👨‍💻</strong></summary>
+### 👩‍💻 Programmering og AI 👨‍💻
 
 Vi lever i en tid der generativ AI blir en del av hverdagen vår. Søker vi på *Google* får vi opp AI-genererte forslag til svar, leser vi nyheter på NRK finnes det AI-oppsummeringer, og teksten her er korrekturlest ved hjelp av AI – uansett!
 
@@ -146,8 +138,6 @@ Derfor er oppgavesettet under en øving i nettopp dette:
 - men samtidig forstå hva som kommer ut i andre enden  
 
 Eksamen i dette kurset vil også teste deres evne til å tolke og forstå kode. Dette er altså en ferdighet dere trenger både til eksamen – og sannsynligvis i arbeidslivet.
-
-</details>
 
 ----
 ### 🎓 Prøve-eksamen
