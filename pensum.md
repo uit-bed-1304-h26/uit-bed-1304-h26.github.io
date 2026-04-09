@@ -42,18 +42,9 @@ Samtidig vil dere måtte jobbe med å forstå kode. Lykke til!👨‍💻👩‍
 <p><a href="oppgaver/BED_1304___Caseoppgave__1.pdf" target="_blank">Åpne case-oppgave i ny fane</a></p>
 
 ### 👩‍💻 Programmering og AI 👨‍💻
+Vi lever i en tid der generativ AI blir en del av hverdagen vår. Søker vi på *Google* får vi opp AI-genererte forslag til svar, leser vi nyheter på nett finnes det ofte AI-oppsummeringer, og teksten her er korrekturlest ved hjelp av AI! I oppgaven her vil dere jobbe *sammen* med AI, samtidig som dere blir utfordret på fokus på egen forståelse av kode. Lykke til!
 
-Vi lever i en tid der generativ AI blir en del av hverdagen vår. Søker vi på *Google* får vi opp AI-genererte forslag til svar, leser vi nyheter på NRK finnes det AI-oppsummeringer, og teksten her er korrekturlest ved hjelp av AI – uansett!
-
-Programmering har vært viktig i mange år, og vil fortsatt være det. Mange kan stille seg spørsmålet: *Trenger jeg å kunne kode, eller kan jeg bare spørre AI?* Dette er et legitimt spørsmål, men det fanger ikke hele bildet. Ja, vi har generativ AI som kan hjelpe oss å skrive kode – men vi trenger fortsatt mennesker som **forstår** koden som blir produsert.
-
-Vi trenger fortsatt økonomer som kan analysere tall, forstå sammenhenger og ta beslutninger – enten det gjelder bedrifter, samfunn eller pensjonssystemer. Eksemplene er mange.
-
-Derfor er oppgavesettet under en øving i nettopp dette:
-- å bruke AI som verktøy  
-- men samtidig forstå hva som kommer ut i andre enden  
-
-Eksamen i dette kurset vil også teste deres evne til å tolke og forstå kode. Dette er altså en ferdighet dere trenger både til eksamen – og sannsynligvis i arbeidslivet.
+<p><a href="oppgaver/BED_1304___Caseoppgave__2.pdf" target="_blank">Åpne case-oppgave i ny fane</a></p>
 
 ----
 ### 🎓 Prøve-eksamen
