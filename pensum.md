@@ -46,6 +46,11 @@ Vi lever i en tid der generativ AI blir en del av hverdagen vår. Søker vi på 
 
 <p><a href="oppgaver/BED_1304___Caseoppgave__2.pdf" target="_blank">Åpne case-oppgave i ny fane</a></p>
 
+### 🔁 Løkker og logikk 🔁
+I denne case-oppgaven vil du bryne deg på en rekke ulike løkker, og logikk oppgaver i Python. Igjen, så er fokuset på forståelse, og kunne **forstå** kode. Lykke til!
+
+<p><a href="oppgaver/BED_1304___Caseoppgave__3.pdf" target="_blank">Åpne case-oppgave i ny fane</a></p>
+
 ----
 ### 🎓 Prøve-eksamen
 Her vil det legges ut en ekstra prøve-eksamen, som er ment for repetisjon av Python lab. Les beskrivelsen i dokuementet.
