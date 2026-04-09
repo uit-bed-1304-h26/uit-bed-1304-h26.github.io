@@ -36,6 +36,9 @@ Du skal lage et lite Python-program som analyserer en liste med tall. Programmet
 ---
 
 ### ➕➖ The basics ➗✖️
+Denne case-oppgaven tar for seg litt basic programmering, i bruk av lister, funksjoner og enkel matematikk.
+Samtidig vil dere måtte jobbe med å forstå kode. Lykke til!👨‍💻👩‍💻
+
 <p><a href="oppgaver/BED_1304___Caseoppgave__1.pdf" target="_blank">Åpne case-oppgave i ny fane</a></p>
 
 ### 👩‍💻 Programmering og AI 👨‍💻
