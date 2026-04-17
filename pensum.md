@@ -27,7 +27,7 @@ ___
 ---
 
 ### Case oppgaver
-For å bli gode i programmering, kan man ikke bare lese pensum, man må kode, få feilmeldinger, rive seg litt i håret og plutselig få det til. Da vil man stille seg spørsmålet, *hvorfor funka dette?* eller *hvorfor funka det ikke?*, begge er gode spørsmål - og nyttige å reflektere over i læringsprosessen.
+For å bli gode i programmering, kan man ikke bare lese pensum, man må kode, få feilmeldinger, rive seg litt i håret og plutselig få det til. Da må man stille seg spørsmål som *hvorfor funka dette?* eller *hvorfor funka det ikke?*, begge er gode spørsmål - og nyttige å reflektere over i læringsprosessen.
 
 Under her vil jeg publisere en rekke case-oppgaver, som krever at dere anvender programmering-skillsa deres!
 
