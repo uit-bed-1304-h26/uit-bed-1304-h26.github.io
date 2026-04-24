@@ -13,7 +13,7 @@ ___
 | 🗒 4. Lister, dictionaries og NumPy | [Intro til Lister, tuples og dictionaries](https://youtu.be/lcf9KVkeYQU) · [Koding/datastrukturer](https://youtu.be/3AT-GRcsoUo) · [Intro til Numpy](https://youtu.be/hpGI4vDcaLU) · [Koding NumPy](https://youtu.be/9wzWnLdI6XE) | ▶️ [Før forelesning](https://youtu.be/kgcOG7q2dq4) | <a href="oppgaver/ListerNumpyRepetisjon.pdf" target="_blank">Oppgaver</a> |
 | 💻 5. Pandas og databehandling | [Intro til Pandas](https://youtu.be/_jyEeWS8c9I) · [Koding Pandas](https://youtu.be/0L7J3gs82qs) | ▶️ [Før forelesning](https://youtu.be/kPINFf-sdaI) | <a href="oppgaver/PandasRepetisjon.pdf" target="_blank">Oppgaver</a> |
 | 🧠 6. Logikk og løkker | [If, elif og else](link) · [For-løkker](link) · [While-løkker](link) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/YbAtgj7epfY) | <a href="oppgaver/LogikkRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 📊 7. Matplotlib | [Visualisering](link) · [Koding](link) · [Visualisering i 3D](link) | ▶️ [Før forelesning](https://youtu.be/ALb-Ie-pAx4) | <a href="oppgaver/MatplotlibRepetisjon.pdf" target="_blank">Oppgaver</a> |
+| 📊 7. Matplotlib | [Visualisering](https://youtu.be/0L7J3gs82qs) · [Koding](link) · [Visualisering i 3D](link) | ▶️ [Før forelesning](https://youtu.be/ALb-Ie-pAx4) | <a href="oppgaver/MatplotlibRepetisjon.pdf" target="_blank">Oppgaver</a> |
 | 🧮 8. SymPy | [SymPy](link) · [Tilbud- og etterspørsel](link) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/XAUuQ5sVijE) | <a href="oppgaver/SympyRepetisjon.pdf" target="_blank">Oppgaver</a> |
 | 🔬 9. Simulering | [Simulering](link) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/Vae0YXmOF8M) | <a href="oppgaver/SimuleringRepetisjon.pdf" target="_blank">Oppgaver</a> |
 
