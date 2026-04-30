@@ -14,7 +14,7 @@ ___
 | 💻 5. Pandas og databehandling | [Intro til Pandas](https://youtu.be/_jyEeWS8c9I) · [Koding Pandas](https://youtu.be/0L7J3gs82qs) | ▶️ [Før forelesning](https://youtu.be/kPINFf-sdaI) | <a href="oppgaver/PandasRepetisjon.pdf" target="_blank">Oppgaver</a> |
 | 🧠 6. Logikk og løkker | [If, elif og else](https://youtu.be/ndZ4n5hAuKU) · [For-løkker](link) · [While-løkker](link) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/YbAtgj7epfY) | <a href="oppgaver/LogikkRepetisjon.pdf" target="_blank">Oppgaver</a> |
 | 📊 7. Matplotlib | [Visualisering](https://youtu.be/UYjvaZQPjEQ) · [Koding](https://youtu.be/d8muzbPDGDM) · [Cobb Douglas og visualisering i 3D](https://youtu.be/IwYVK9MR_14) | ▶️ [Før forelesning](https://youtu.be/ALb-Ie-pAx4) | <a href="oppgaver/MatplotlibRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 🧮 8. SymPy | [SymPy](https://youtu.be/IwYVK9MR_14) · [Tilbud- og etterspørsel](link) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/XAUuQ5sVijE) | <a href="oppgaver/SympyRepetisjon.pdf" target="_blank">Oppgaver</a> |
+| 🧮 8. SymPy | [SymPy](https://youtu.be/PXZgZGQ3WwY) · [Tilbud- og etterspørsel](link) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/XAUuQ5sVijE) | <a href="oppgaver/SympyRepetisjon.pdf" target="_blank">Oppgaver</a> |
 | 🔬 9. Simulering | [Simulering](link) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/Vae0YXmOF8M) | <a href="oppgaver/SimuleringRepetisjon.pdf" target="_blank">Oppgaver</a> |
 
 ---
