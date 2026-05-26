@@ -22,8 +22,8 @@ For mer informasjon om kurset, se UiT sin [læringsutbyttebeskrivelse](https://u
 I forbindelse med spørsmål til faget, eksamen og prosjektet skal spørsmål henvendes til Markus Aase. 
 
 ## Seminarledere
-I dette kurset (i Tromsø) har vi tre seminarledere, disse vil være tilgjengelig i seminarene og hjelpe dere med oppgaver/øving til eksamen/kode-trøbbel.
-- Erling Mikkola - <ermik7127@uit.no>
+I dette kurset (i Tromsø) har vi tre (eller fire) seminarledere, disse vil være tilgjengelig i seminarene og hjelpe dere med oppgaver/øving til eksamen/kode-trøbbel.
+
 - Daniel Nikolai Johannessen - <djo060@uit.no>
 - Daniel Fabio Groth - <dgr012@uit.no>
 
