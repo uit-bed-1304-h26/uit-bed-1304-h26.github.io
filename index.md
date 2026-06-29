@@ -31,7 +31,7 @@ I dette kurset (i Tromsø) har vi tre (eller fire) seminarledere, disse vil vær
 For henvendelser av administrative art send e-post til: <hhcampus@hjelp.uit.no>. Der får du hjelp av Handelshøgskolens administrasjon.
 
 ## Pensum
-I BED-1304 *Python-lab* har vi ingen bok, men vi har følgende pensum:
+* <a href="notebooks/Python_Lab_Kompendium_H26.pdf" target="_blank">Python-lab kompendium</a>
 * Forelesninger, og forelesningsnotater (Jupyter Notebooks).
 * Repetisjonsark til hvert av temaene.
 * Det finnes også en GitHub-bok, som viser forelesningsnotatene, pensum og repetisjonsoppgaver. Den finner dere [her](https://markusaase97.github.io/BED-1304-bok/notebooks/00/intro.html).
