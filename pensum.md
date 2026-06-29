@@ -4,6 +4,10 @@ Her finner dere en systematisk læringssti dere kan følge selv. Den består av 
 
 Dette vil ikke erstatte fysisk forelesning og seminar, se forelesningsplan [her](https://uit-bed-1304-h26.github.io/forelesningsplan.html). Forelesningsnotatene er samlet i en egen GitHub-bok for faget, [trykk her](https://markusaase97.github.io/BED-1304-bok/notebooks/00/intro.html) for å komme til boka.
 
+### Pensumbok
+I dette kurset har jeg lagd et kompendium til dere, som er en samling av tematikkene vi skal gjennomgå i kurset. Det er teori, oppgaver, case-oppgaver og mye mer.
+Den finner dere [her]
+
 ___
 
 | **Tema** | **Videoer i detalj** | **Introduksjonsvideo** | **Oppgaver/progresjon** |
