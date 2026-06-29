@@ -7,6 +7,7 @@ Dette vil ikke erstatte fysisk forelesning og seminar, se forelesningsplan [her]
 ### Pensumbok
 I dette kurset har jeg lagd et kompendium til dere, som er en samling av tematikkene vi skal gjennomgå i kurset. Det er teori, oppgaver, case-oppgaver og mye mer.
 Den finner dere her: <a href="notebooks/Python_Lab_Kompendium_H26.pdf" target="_blank">Python-lab kompendium</a>
+
 ___
 
 | **Tema** | **Videoer i detalj** | **Introduksjonsvideo** | **Oppgaver/progresjon** |
