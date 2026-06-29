@@ -6,14 +6,13 @@ Denne vil oppdateres, og rom nr. finner dere på UiT sin timeplan [her](https://
 
 ## Oversikt over forelesninger og seminar.
 **Kommentar:** Her kan (og mest sannsynligvis vil) det skje endringer.
-Under **Type** kolonnen, finner dere link til tilhørende forlesning/seminar for de ulike temaene vi skal igjennom i løpet av semesteret!📌 Der dere ser **Video**, så er det lagt ut en *forelesningsforberedende* video. Den er ikke ment for å erstatte forelesning, men ment som et supplement til annen undervisning. Ser dere disse korte snuttene, er dere litt forberedt på hva vi snakker om i forelesningene.
+
+Ellers, så vil dere finne en samlet læringssti [her](https://uit-bed-1304-h26.github.io/pensum.html). Den er bestående av detaljerte video'er, repetisjonsark, **forelesningsforberedende** video'er og case-oppgaver. I tillegg finner dere prøve-eksamen der. 
+
+**OBS: Før hver forelesning, forventer jeg at dere har sett de videoene for det gjeldende temaet som forberedelse!**
 
 ## Pensum
 I dette kurset har vi et kompendium dere kan bruke til selv-studium, repetisjon, oppgavejobbing og eksamenslesning: <a href="notebooks/Python_Lab_Kompendium_H26.pdf" target="_blank">Python-lab kompendium</a>
-
-Ellers, så vil dere finne en samlet læringssti [her](https://uit-bed-1304-h26.github.io/pensum.html). Den er bestående av detaljerte video'er, repetisjonsark, forelesningsforberedende video'er og case-oppgaver. I tillegg finner dere prøve-eksamen her. 
-
-**OBS: Før hver forelesning, forventer jeg at dere har sett de videoene for det gjeldende temaet som forberedelse!**
 
 | Tid | Sted | Tema | Forelesning / Seminar | Løsningsforslag (LF) |
 |------|------|------|------------------------|------------------------|
