@@ -6,26 +6,25 @@ Dette vil ikke erstatte fysisk forelesning og seminar, se forelesningsplan [her]
 
 ### Pensumbok
 I dette kurset har jeg lagd et kompendium til dere, som er en samling av tematikkene vi skal gjennomgå i kurset. Det er teori, oppgaver, case-oppgaver og mye mer.
-Den finner dere [her]
-
+Den finner dere her: <a href="notebooks/Python_Lab_Kompendium_H26.pdf" target="_blank">Python-lab kompendium</a>
 ___
 
 | **Tema** | **Videoer i detalj** | **Introduksjonsvideo** | **Oppgaver/progresjon** |
-| 🟢 1. Introduksjon | [Velkommen](https://youtu.be/DPkvKuK4B5A) · [Installasjon](https://youtu.be/lYwkKKI9Fnw) |  | Gjør dere kjent med Python |
-| 🐍 2. Python Basics | [Variabler/datatyper](https://youtu.be/rctSMn1f1jM) · [Operatorer](https://youtu.be/qilshscGVy8) · [Kode-session](https://youtu.be/UyOo273-3p8) | ▶️ [Før forelesning](https://youtu.be/P7DCjp5QJCk) | <a href="oppgaver/PythonBasicsRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 🔢 3. Funksjoner | [Hva er en funksjon?](https://youtu.be/WxZAB8j8epA) · [Koding i Python](https://youtu.be/xw3ZyC0pe-0) | ▶️ [Før forelesning](https://youtu.be/u1FSeJdB3LU) | <a href="oppgaver/FunksjonerRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 🗒 4. Lister, dictionaries og NumPy | [Intro til Lister, tuples og dictionaries](https://youtu.be/lcf9KVkeYQU) · [Koding/datastrukturer](https://youtu.be/3AT-GRcsoUo) · [Intro til Numpy](https://youtu.be/hpGI4vDcaLU) · [Koding NumPy](https://youtu.be/9wzWnLdI6XE) | ▶️ [Før forelesning](https://youtu.be/kgcOG7q2dq4) | <a href="oppgaver/ListerNumpyRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 💻 5. Pandas og databehandling | [Intro til Pandas](https://youtu.be/_jyEeWS8c9I) · [Koding Pandas](https://youtu.be/0L7J3gs82qs) | ▶️ [Før forelesning](https://youtu.be/kPINFf-sdaI) | <a href="oppgaver/PandasRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 🧠 6. Logikk og løkker | [If, elif og else](https://youtu.be/ndZ4n5hAuKU) · [For-løkker](link) · [While-løkker](link) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/YbAtgj7epfY) | <a href="oppgaver/LogikkRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 📊 7. Matplotlib | [Visualisering](https://youtu.be/UYjvaZQPjEQ) · [Koding](https://youtu.be/d8muzbPDGDM) · [Cobb Douglas og visualisering i 3D](https://youtu.be/IwYVK9MR_14) | ▶️ [Før forelesning](https://youtu.be/ALb-Ie-pAx4) | <a href="oppgaver/MatplotlibRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 🧮 8. SymPy | [SymPy](https://youtu.be/PXZgZGQ3WwY) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/XAUuQ5sVijE) | <a href="oppgaver/SympyRepetisjon.pdf" target="_blank">Oppgaver</a> |
-| 🔬 9. Simulering | [Simulering](https://youtu.be/VqEQdbPe3ms) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/Vae0YXmOF8M) | <a href="oppgaver/SimuleringRepetisjon.pdf" target="_blank">Oppgaver</a> |
+| 🟢 1. Introduksjon | [Velkommen](https://youtu.be/DPkvKuK4B5A) · [Installasjon](https://youtu.be/lYwkKKI9Fnw) |  | Gjør dere kjent med Python, og kapittel 1 i kompendium |
+| 🐍 2. Python Basics | [Variabler/datatyper](https://youtu.be/rctSMn1f1jM) · [Operatorer](https://youtu.be/qilshscGVy8) · [Kode-session](https://youtu.be/UyOo273-3p8) | ▶️ [Før forelesning](https://youtu.be/P7DCjp5QJCk) | Kapittel 2, og bakerst i kompendium |
+| 🔢 3. Funksjoner | [Hva er en funksjon?](https://youtu.be/WxZAB8j8epA) · [Koding i Python](https://youtu.be/xw3ZyC0pe-0) | ▶️ [Før forelesning](https://youtu.be/u1FSeJdB3LU) | Kapittel 3, og bakerst i kompendium |
+| 🗒 4. Lister, dictionaries og NumPy | [Intro til Lister, tuples og dictionaries](https://youtu.be/lcf9KVkeYQU) · [Koding/datastrukturer](https://youtu.be/3AT-GRcsoUo) · [Intro til Numpy](https://youtu.be/hpGI4vDcaLU) · [Koding NumPy](https://youtu.be/9wzWnLdI6XE) | ▶️ [Før forelesning](https://youtu.be/kgcOG7q2dq4) | Kapittel 4, og bakerst i kompendium |
+| 💻 5. Pandas og databehandling | [Intro til Pandas](https://youtu.be/_jyEeWS8c9I) · [Koding Pandas](https://youtu.be/0L7J3gs82qs) | ▶️ [Før forelesning](https://youtu.be/kPINFf-sdaI) | Kapittel 5, og bakerst i kompendium |
+| 🧠 6. Logikk og løkker | [If, elif og else](https://youtu.be/ndZ4n5hAuKU) · [For-løkker](link) · [While-løkker](link) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/YbAtgj7epfY) | Kapittel 6, og bakerst i kompendium |
+| 📊 7. Matplotlib | [Visualisering](https://youtu.be/UYjvaZQPjEQ) · [Koding](https://youtu.be/d8muzbPDGDM) · [Cobb Douglas og visualisering i 3D](https://youtu.be/IwYVK9MR_14) | ▶️ [Før forelesning](https://youtu.be/ALb-Ie-pAx4) | Kapittel 7, og bakerst i kompendium |
+| 🧮 8. SymPy | [SymPy](https://youtu.be/PXZgZGQ3WwY) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/XAUuQ5sVijE) | Kapittel 8, og bakerst i kompendium |
+| 🔬 9. Simulering | [Simulering](https://youtu.be/VqEQdbPe3ms) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/Vae0YXmOF8M) | Kapittel 9, og bakerst i kompendium |
 
 ---
 ## 🧭 Hvordan bruke siden
 - Start med *video i detalj*-videoene  
 - Se gjennom *introduksjonsvideo*, disse er ment og forberede deg til de fysiske forelesningene.  
-- Jobb med oppgaver. Her finner dere en rekke pdf’er for de ulike forelesningene. Disse gir dere litt repetisjon, og oppgaver/løsningsforslag knyttet til forelesningene. Totalt sett, vil dette gå igjennom en god del av pensum i faget. Likevel, anbefaler jeg å møte i forelesning/seminar for å få presentert stoffet og bruke ressursene her som repetisjon for å terpe på fagstoffet.
+- Jobb med oppgaver, dette finner dere masse av i kompendiet! Likevel, anbefaler jeg å møte i forelesning/seminar for å få presentert stoffet og bruke ressursene her som repetisjon for å terpe på fagstoffet.
 - **Husk:** Dere er ansvalig for **egen læring**! Gå i gjennom forelesningsnotatene grundig, for å dekke hele pensum. Seminar-filene har også masse oppgaver. Videoene er også pensum.
 
 ---
@@ -33,7 +32,7 @@ ___
 ### Case oppgaver
 For å bli gode i programmering, kan man ikke bare lese pensum, man må kode, få feilmeldinger, rive seg litt i håret og plutselig få det til. Da må man stille seg spørsmål som *hvorfor funka dette?* eller *hvorfor funka det ikke?*, begge er gode spørsmål - og nyttige å reflektere over i læringsprosessen.
 
-Under her vil jeg publisere en rekke case-oppgaver, som krever at dere anvender programmering-skillsa deres!
+Under her har jeg publisere noen case-oppgaver, i tillegg til dem som er i kompendiet, som krever at dere anvender programmering-skillsa deres!
 
 **Husk - Øvelse gjør mester!**
 
