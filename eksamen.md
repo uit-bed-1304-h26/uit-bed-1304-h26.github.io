@@ -14,7 +14,7 @@
 
 | Type oppgave             | Innleveringsfrist                     | Hvordan               |Vurdering               |
 |--------------------------|---------------------------------------|-----------------------|------------------------|
-|Arbeidskrav               |  27. oktober; kl. 14:00               | Wiseflow/Canvas                |Godkjent/Ikke-godkjent  |
+|Arbeidskrav               |  Løpende (må ha 6 av 8 øvinger godkjent)             | Canvas                |Godkjent/Ikke-godkjent  |
 |Eksamen                   |  2. desember; kl. 09:00-13:00        | Digital skoleeksamen  |100% av karaktergrunnlag|
 
 Arbeidskravet gjennomføres individuelt. Eksamen er individuell.
