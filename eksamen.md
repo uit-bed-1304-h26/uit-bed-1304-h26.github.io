@@ -2,7 +2,7 @@
 # Bed-1304 Python-lab 
 
 ## Arbeidskrav
-- I dette kurset har vi et arbeidskrav, det er innlevering av 27.10 kl. 14:00 på WiseFlow (eller Canvas, dette vil oppdateres).
+- I dette kurset har vi flere arbeidskrav, det er innlevering fortløpende gjennom Canvas!
 - Arbeidskravet vurderes godkjent/ikke-godkjent, og **må** gjennomføres for å få lov til å ta eksamen i faget.
 - Arbeidskrav er obligatorisk, men inngår ikke i karaktergrunnlaget.
 
