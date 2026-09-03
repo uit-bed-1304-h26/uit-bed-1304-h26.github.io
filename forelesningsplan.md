@@ -55,6 +55,7 @@ I dette kurset har vi et kompendium dere kan bruke til selv-studium, repetisjon,
 I perioden med prosjektarbeid og egenstudium vil det være mulighet for kontortid med foreleser. Det planlegges direkte sammen med fagansvarlig Markus J. Aase (markus.j.aase@uit.no) og den enkelte gruppe det gjelder. 
 
 Løsningsforslag på arbeidskrav:
+
 | Arbeidskrav | Løsningsforslag |
 |-------------|-----------------|
 | Arbeidskrav 1 | [Åpne løsningsforslag](oppgaver/Arbeidskrav1_LF.html) |
