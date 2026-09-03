@@ -57,7 +57,7 @@ I perioden med prosjektarbeid og egenstudium vil det være mulighet for kontorti
 Løsningsforslag på arbeidskrav:
 | Arbeidskrav | Løsningsforslag |
 |-------------|-----------------|
-| Arbeidskrav 1 | [Åpne løsningsforslag](oppgaver/arbeidskrav1.html) |
+| Arbeidskrav 1 | [Åpne løsningsforslag](oppgaver/Arbeidskrav1_LF.html) |
 | Arbeidskrav 2 | Kommer |
 | Arbeidskrav 3 | Kommer |
 | Arbeidskrav 4 | Kommer |
