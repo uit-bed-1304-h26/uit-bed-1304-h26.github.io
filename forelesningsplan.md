@@ -54,7 +54,19 @@ I dette kurset har vi et kompendium dere kan bruke til selv-studium, repetisjon,
 ## Arbeidskrav og egenstudium
 I perioden med prosjektarbeid og egenstudium vil det være mulighet for kontortid med foreleser. Det planlegges direkte sammen med fagansvarlig Markus J. Aase (markus.j.aase@uit.no) og den enkelte gruppe det gjelder. 
 
-I perioden 15. september til 15. november er Espen Sirnes (espen.sirnes@uit.no) studentenes kontaktpunkt. Mens Markus vil nås på mail og svare én gang i uka i den perioden.
+Løsningsforslag på arbeidskrav:
+| Arbeidskrav | Løsningsforslag |
+|-------------|-----------------|
+| Arbeidskrav 1 | [Åpne løsningsforslag](oppgaver/arbeidskrav1.html) |
+| Arbeidskrav 2 | Kommer |
+| Arbeidskrav 3 | Kommer |
+| Arbeidskrav 4 | Kommer |
+| Arbeidskrav 5 | Kommer |
+| Arbeidskrav 6 | Kommer |
+| Arbeidskrav 7 | Kommer |
+| Arbeidskrav 8 | Kommer |
+
+I perioden 21. september til 2. november er Espen Sirnes (espen.sirnes@uit.no) studentenes kontaktpunkt. Mens Markus vil nås på mail og svare én gang i uka i den perioden.
 
 ### Valgfritt tema - SeaBorn (en videreutvikling av matplotlib)
 Hvis du ønsker, kan du titte på biblioteket [SeaBorn](https://seaborn.pydata.org/). Det er ikke en del av pensum, og kommer ikke på eksamen, men for den interesserte!
