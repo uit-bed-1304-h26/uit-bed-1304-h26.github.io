@@ -22,10 +22,12 @@ For mer informasjon om kurset, se UiT sin [læringsutbyttebeskrivelse](https://u
 I forbindelse med spørsmål til faget, eksamen og prosjektet skal spørsmål henvendes til Markus Aase. 
 
 ## Seminarledere
-I dette kurset (i Tromsø) har vi tre (eller fire) seminarledere, disse vil være tilgjengelig i seminarene og hjelpe dere med oppgaver/øving til eksamen/kode-trøbbel.
+I dette kurset (i Tromsø) har vi fire seminarledere, disse vil være tilgjengelig i seminarene og hjelpe dere med oppgaver/øving til eksamen/kode-trøbbel.
 
 - Daniel Nikolai Johannessen - <djo060@uit.no>
 - Daniel Fabio Groth - <dgr012@uit.no>
+- ‎Oskar Hultgren — <oshul4171@uit.no>
+- Sander Bjørnestad - <sabjo5358@uit.no>
 
 ## Administrative spørsmål
 For henvendelser av administrative art send e-post til: <hhcampus@hjelp.uit.no>. Der får du hjelp av Handelshøgskolens administrasjon.
@@ -40,7 +42,21 @@ For henvendelser av administrative art send e-post til: <hhcampus@hjelp.uit.no>.
 ## Kunngjøringer  
 Kunngjøringer og beskjeder legges ut i [Canvas](https://uit.instructure.com/){:target="blank"}.
 
-## Innlevering og eksamen  
-Kurset består av ett arbeidskrav, som vurderes Godkjent/Ikke-godkjent. I slutten av semesteret er den en digital, 4 timers skole-eksamen. Dette danner grunnlag for karakter A-E, F er stryk.
+## Arbeidkrav 
+*  Vi har 8 øvinger gjennom semesteret, og for å få godkjent "prosjektet" i dette kurset må du få Godkjent på minst 6 av 8 øvinger.
+*  Øvingene finnes under "Oppgaver" på Canvas.
+*  Vurdering: Godkjent / Ikke godkjent
+*  Frist og oppgavetekst: publiseres på [emnesiden under «Eksamen og vurdering»](eksamen.html)
 
-Frister og oppgaver finnes [her](eksamen.html){:target="blank"}.    
+## Eksamen
+Digital skriftlig skoleeksamen
+
+*  Eksamenstype: Digital, skriftlig skoleeksamen
+*  Varighet: 4 timer
+*  Karakterskala: A–E, stryk F
+*  Eksamensdato: Se [timeplan på TP](https://tp.educloud.no/uit/) og [emnesiden](eksamen.html) for oppdatert dato og tidspunkt
+*  Kontinuasjonseksamen: Arrangeres i januar/februar etter semesteret
+
+Prøveeksamen og mer detaljert informasjon om eksamen legges ut på [emnesiden](eksamen.html). i god tid før eksamen.
+
+
