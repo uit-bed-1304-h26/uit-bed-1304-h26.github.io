@@ -26,29 +26,24 @@ I dette kurset har vi et kompendium dere kan bruke til selv-studium, repetisjon,
 | xx.08.2026 14:15-16:00 | Tromsø | 🔢 3. Funksjoner | [Seminar](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Seminar3-Funksjoner.ipynb) | [Løsningsforslag](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Seminar3-FunksjonerLF.ipynb) |
 | 04.09.2026 10:15-12:00 | Tromsø | 🗒 4. Lister, dict. og NumPy | [Recap forelesning 1-3](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/Recap_1_til_3.ipynb))/[Forelesning](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/4%20-%20lister_oppslag_numpy.ipynb) | [Forelesning med LF](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/4%20-%20lister%2C%20oppslag%20og%20numpyLF.ipynb) |
 | xx.09.2026 14:15-16:00 | Tromsø | 🗒 4. Lister, dict. og NumPy | [Seminar](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Seminar4_Lister_Dict_Numpy.ipynb) | [Løsningsforslag](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/4%20-%20lister_oppslag_numpyLF.ipynb) |
-| 07.09.2026 08:15-10:00 | Tromsø | 💻 5. Pandas og databehandling | [Forelesning](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/5%20-%20Pandas_og_databehandling.ipynb) | [Forelesning med LF](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/5%20-%20Pandas_og_databehandlingLF.ipynb) |
+| 09.09.2026 10:15-12:00 | Tromsø | 💻 5. Pandas og databehandling | [Forelesning](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/5%20-%20Pandas_og_databehandling.ipynb) | [Forelesning med LF](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/5%20-%20Pandas_og_databehandlingLF.ipynb) |
 | xx.09.2026 14:15-16:00 | Tromsø | 💻 5. Pandas og databehandling | Seminar | [Løsningsforslag](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Seminar5_Pandas_og_databehandling_LF.ipynb) |
-| 09.09.2026 10:15-12:00 | Tromsø | 🧠 6. Logikk og løkker | [Forelesning](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/6%20-%20Logikk_løkker.ipynb) | [Løsningsforslag](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/6%20-%20Logikk_løkker_LF.ipynb) |
+| 16.09.2026 10:15-12:00 | Tromsø | 🧠 6. Logikk og løkker | [Forelesning](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/6%20-%20Logikk_løkker.ipynb) | [Løsningsforslag](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/6%20-%20Logikk_løkker_LF.ipynb) |
 | xx.09.2026 08:15-10:00 | Tromsø | 🧠 6. Logikk og løkker | [Seminar](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Seminar6-Logikk_løkker.ipynb) | [Løsningsforslag](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Seminar6-Logikk_løkkerLF.ipynb) |
-| xx.09.2026 | Tromsø | ARBEIDSKRAV UTLEVERES | Ligger på WiseFlow! | |
-| 16.09.2026 10:15-12:00 | Tromsø | 📊 7. Matplotlib | [Forelesning](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/7.1%20-%20matplotlib.ipynb) | [Forelesning med LF](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/7.1%20-%20matplotlibLF.ipynb) |
+| 21.09.2026 10:15-12:00 | Tromsø | 📊 7. Matplotlib (Video vil bli spilt inn) | [Forelesning](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/7.1%20-%20matplotlib.ipynb) | [Forelesning med LF](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/7.1%20-%20matplotlibLF.ipynb) |
 | xx.09.2026 10:15-12:00 (grp 1–2), 14:15-16:00 (grp 3) | Tromsø | 📊 7. Matplotlib | [Seminar](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Seminar7.1_Matplotlib.ipynb) | [Løsningsforslag](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Seminar7.1_MatplotlibLF.ipynb) |
-| 21.09.2026 10:15-12:00 | Tromsø | 🧮 8. SymPy (foreleser: Espen Sirnes) | [Forelesning](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/8%20-%20sympy.ipynb) | [Forelesning med LF](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/8%20-%20sympyLF.ipynb) |
+| 07.10.2026 10:15-12:00 | Tromsø | 🧮 8. SymPy (foreleser: Espen Sirnes) | [Forelesning](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/8%20-%20sympy.ipynb) | [Forelesning med LF](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/8%20-%20sympyLF.ipynb) |
 | xx.09.2026 | Tromsø | 🧮 8. SymPy | [Seminar](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Seminar8_SymPy.ipynb) | [Løsningsforslag](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Seminar8_SymPyLF.ipynb) |
-| 21.09.2026 10:15-12:00 | Tromsø | Repetisjon **Pandas og Matplotlib** (Seminar) | [Forelesning](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/Repetisjon_Pandas_Plot.ipynb) | Powerpoint |
-| 05.10.2026 10:15-12:00 | Tromsø | Repetisjon av **Logikk og løkker** | [Forelesning](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/Repetisjon_Logikk.ipynb) | Powerpoint |
-| 12.10.2026 10:15-12:00 | Tromsø | Repetisjon av **Funksjoner og SymPy** (Seminar) | Powerpoint | |
-| 19.10.2026 10:15-12:00 | Tromsø | Spørretime (reserve) | [Still dine spørsmål](https://forms.gle/fgjHcTmUJzSLZduB9) | |
+| 12.10.2026 10:15-12:00 | Tromsø | Repetisjon (Video) | Powerpoint | |
+| 19.10.2026 10:15-12:00 | Tromsø | Spørretime (reserve) |  | |
 | xx.10.2026 | Tromsø | ARBEIDSKRAV | Seminar | |
 | 26.10.2026 10:15-12:00 | Tromsø | 🔬 9. Simulering (foreleser: Amund Jenssen) | [Forelesning](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/9%20-%20simulering.ipynb) | [Løsningsforslag](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/9%20-%20simuleringLF.ipynb) |
 | xx.10.2026 | Tromsø | 🔬 9. Simulering | Seminar (oppgaver fra forelesning) | |
-| 27.10.2026 | Tromsø | INNLEVERING AV ARBEIDSKRAV | Gjør i WiseFlow | |
-| 16.11.2026 10:15-12:00 | Tromsø | Sy alt sammen | Forelesning | |
-| 20.11.2026 10:15-12:00 | Tromsø | Sy alt sammen | Forelesning | |
-| 23.11.2026 10:15-12:00 | Tromsø | Repetisjon/oppsummering | Forelesning | |
-| 27.11.2026 10:15-12:00 | Tromsø | Repetisjon/eksamenforberedelse | Forelesning | |
-| 30.11.2026 10:15-12:00 | Tromsø | Repetisjon/eksamenforberedelse | Forelesning | |
-| 04.12.2026 10:15-12:00 | Tromsø | Repetisjon/eksamenforberedelse | Forelesning | |
+| 02.11.2026 10:15-12:00 | Tromsø | Sy alt sammen | Fagdag med seminarledere | |
+| 10.11.2026 10:15-12:00 | Tromsø | Sy alt sammen | Fagdag med seminarledere | |
+| 16.11.2026 10:15-12:00 | Tromsø | Repetisjon/oppsummering | Forelesning | |
+| 23.11.2026 10:15-12:00 | Tromsø | Repetisjon/eksamenforberedelse | Forelesning | |
+| 01.12.2026 10:15-12:00 | Tromsø | Repetisjon/eksamenforberedelse | Forelesning | |
 | xx.12.2026 09:00-13:00 | Tromsø | DIGITAL SKOLEEKSAMEN | — | |
 
 ## Arbeidskrav og egenstudium
