@@ -54,7 +54,7 @@ Løsningsforslag på arbeidskrav:
 | Arbeidskrav | Løsningsforslag |
 |-------------|-----------------|
 | Arbeidskrav 1 | [Åpne løsningsforslag](oppgaver/Arbeidskrav1_LF.html) |
-| Arbeidskrav 2 | Kommer |
+| Arbeidskrav 2 | [Åpne løsningsforslag](oppgaver/Arbeidskrav2_LF.html) |
 | Arbeidskrav 3 | Kommer |
 | Arbeidskrav 4 | Kommer |
 | Arbeidskrav 5 | Kommer |
