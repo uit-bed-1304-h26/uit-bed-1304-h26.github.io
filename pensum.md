@@ -20,8 +20,8 @@ ___
 | 💻 5. Pandas og databehandling | [Intro til Pandas](https://youtu.be/_jyEeWS8c9I) · [Koding Pandas](https://youtu.be/0L7J3gs82qs) | ▶️ [Før forelesning](https://youtu.be/kPINFf-sdaI) | Kapittel 5, og bakerst i kompendium |
 | 🧠 6. Logikk og løkker | [If, elif og else](https://youtu.be/ndZ4n5hAuKU) · [For-løkker](https://youtu.be/biEplyLNuic?si=FQAHuSrubDbi3eDA) · [While-løkker](https://www.youtube.com/watch?v=aQkMdfFoDMA&list=PLEPxTBw6UoiCHytgiKuOZDvGQiG5zUuoV&index=9) | ▶️ [Før forelesning](https://youtu.be/YbAtgj7epfY) | Kapittel 6, og bakerst i kompendium |
 | 📊 7. Matplotlib | [Intro til visualisering](https://youtu.be/Yh5eFA67H3Y) · [Koding](https://youtu.be/d8muzbPDGDM) · [Cobb Douglas og visualisering i 3D](https://youtu.be/IwYVK9MR_14) | ▶️ [Før forelesning](https://youtu.be/ALb-Ie-pAx4) | Kapittel 7, og bakerst i kompendium |
-| 🧮 8. SymPy | [SymPy](https://youtu.be/PXZgZGQ3WwY) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/XAUuQ5sVijE) | Kapittel 8, og bakerst i kompendium |
-| 🔬 9. Simulering | [Simulering](https://youtu.be/VqEQdbPe3ms) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/Vae0YXmOF8M) | Kapittel 9, og bakerst i kompendium |
+| 🧮 8. SymPy | [SymPy](https://youtu.be/2Y2V2G8CpbY) · [Koding (kommer)](link) | ▶️ [Før forelesning](https://youtu.be/XAUuQ5sVijE) | Kapittel 8, og bakerst i kompendium |
+| 🔬 9. Simulering | [Simulering](https://youtu.be/cqaAPjcIkiw) · [Koding](link) | ▶️ [Før forelesning](https://youtu.be/Vae0YXmOF8M) | Kapittel 9, og bakerst i kompendium |
 
 ---
 ## 🧭 Hvordan bruke siden
