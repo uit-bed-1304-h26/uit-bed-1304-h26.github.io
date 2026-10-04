@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jupyter Notebook — generated with runcell</title>
+    <meta name="description" content="Exported with runcell — convert .ipynb notebooks to HTML or PDF anytime at runcell.dev." />
+    <meta name="generator" content="runcell" />
+    <style>
+        :root {
+            --jp-code-font-family: 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
+            --jp-content-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            --jp-cell-prompt-width: 64px;
+            --jp-input-prompt-color: #307fc1;
+            --jp-output-prompt-color: #bf5b3d;
+            --jp-cell-input-bg: #f7f7f7;
+            --jp-layout-color0: #ffffff;
+            --jp-layout-color1: #f7f7f7;
+            --jp-border-color1: #e0e0e0;
+            --jp-content-font-color0: #000000;
+            --jp-content-font-color1: #333333;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--jp-content-font-family);
+            font-size: 14px;
+            line-height: 1.5;
+            color: var(--jp-content-font-color0);
+            background-color: var(--jp-layout-color0);
+            margin: 0;
+            padding: 0;
+        }
+
+        .notebook-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Cell structure */
+        .cell {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        .cell-prompt {
+            min-width: var(--jp-cell-prompt-width);
+            width: var(--jp-cell-prompt-width);
+            font-family: var(--jp-code-font-family);
+            font-size: 12px;
+            padding: 10px 8px 10px 0;
+            text-align: right;
+            flex-shrink: 0;
+            user-select: none;
+        }
+
+        .cell-content {
+            flex: 1;
+            min-width: 0;
+            overflow: hidden;
+        }
+
+        /* Input prompt styling - Jupyter blue */
+        .input-prompt {
+            color: var(--jp-input-prompt-color);
+            font-weight: bold;
+        }
+
+        /* Output prompt styling - Jupyter red/orange */
+        .output-prompt {
+            color: var(--jp-output-prompt-color);
+            font-weight: bold;
+        }
+
+        /* Code cell input area */
+        .input-area {
+            background-color: var(--jp-cell-input-bg);
+            border: 1px solid var(--jp-border-color1);
+            border-radius: 2px;
+            padding: 8px 12px;
+            overflow-x: auto;
+        }
+
+        .input-area pre {
+            margin: 0;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        /* Output area */
+        .output-area {
+            margin-top: 0;
+        }
+
+        .output-wrapper {
+            display: flex;
+            flex-direction: row;
+            margin-top: 4px;
+        }
+
+        .output-content {
+            flex: 1;
+            min-width: 0;
+            padding: 8px 0;
+        }
+
+        .output-content pre {
+            margin: 0;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        /* Stream output (stdout/stderr) */
+        .output-stream {
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .output-stderr {
+            background-color: #fdd;
+            padding: 8px 12px;
+            border-radius: 2px;
+        }
+
+        /* Execute result / display data */
+        .output-result {
+            padding: 4px 0;
+        }
+
+        .output-result pre {
+            margin: 0;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+        }
+
+        /* Image output */
+        .output-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* HTML output (DataFrames, etc.) */
+        .output-html {
+            overflow-x: auto;
+        }
+
+        .output-html table {
+            border-collapse: collapse;
+            font-size: 13px;
+            font-family: var(--jp-content-font-family);
+        }
+
+        .output-html table th,
+        .output-html table td {
+            border: 1px solid #ddd;
+            padding: 6px 10px;
+            text-align: left;
+        }
+
+        .output-html table th {
+            background-color: #f5f5f5;
+            font-weight: 600;
+        }
+
+        .output-html table tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        /* Error output */
+        .output-error {
+            background-color: #fff0f0;
+            padding: 8px 12px;
+            border-radius: 2px;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            white-space: pre-wrap;
+        }
+
+        /* Markdown cell styling */
+        .markdown-cell {
+            padding: 10px 0;
+        }
+
+        .markdown-cell h1 {
+            font-size: 2em;
+            font-weight: 600;
+            margin: 0.67em 0;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid var(--jp-border-color1);
+        }
+
+        .markdown-cell h2 {
+            font-size: 1.5em;
+            font-weight: 600;
+            margin: 0.83em 0;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid var(--jp-border-color1);
+        }
+
+        .markdown-cell h3 {
+            font-size: 1.25em;
+            font-weight: 600;
+            margin: 1em 0;
+        }
+
+        .markdown-cell h4 {
+            font-size: 1em;
+            font-weight: 600;
+            margin: 1.33em 0;
+        }
+
+        .markdown-cell h5 {
+            font-size: 0.875em;
+            font-weight: 600;
+            margin: 1.67em 0;
+        }
+
+        .markdown-cell h6 {
+            font-size: 0.85em;
+            font-weight: 600;
+            margin: 2.33em 0;
+            color: #6a737d;
+        }
+
+        .markdown-cell p {
+            margin: 0 0 16px 0;
+            line-height: 1.6;
+        }
+
+        .markdown-cell code {
+            font-family: var(--jp-code-font-family);
+            font-size: 85%;
+            background-color: rgba(27, 31, 35, 0.05);
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+        }
+
+        .markdown-cell pre {
+            background-color: var(--jp-cell-input-bg);
+            border: 1px solid var(--jp-border-color1);
+            border-radius: 3px;
+            padding: 16px;
+            overflow-x: auto;
+            font-size: 85%;
+            line-height: 1.45;
+        }
+
+        .markdown-cell pre code {
+            background-color: transparent;
+            padding: 0;
+            border-radius: 0;
+            font-size: 100%;
+        }
+
+        .markdown-cell blockquote {
+            margin: 0 0 16px 0;
+            padding: 0 1em;
+            color: #6a737d;
+            border-left: 4px solid #dfe2e5;
+        }
+
+        .markdown-cell ul,
+        .markdown-cell ol {
+            margin: 0 0 16px 0;
+            padding-left: 2em;
+        }
+
+        .markdown-cell li {
+            margin: 0.25em 0;
+        }
+
+        .markdown-cell a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        .markdown-cell a:hover {
+            text-decoration: underline;
+        }
+
+        .markdown-cell hr {
+            border: 0;
+            border-top: 1px solid var(--jp-border-color1);
+            margin: 24px 0;
+        }
+
+        .markdown-cell img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .markdown-cell table {
+            border-collapse: collapse;
+            margin: 0 0 16px 0;
+        }
+
+        .markdown-cell table th,
+        .markdown-cell table td {
+            border: 1px solid #dfe2e5;
+            padding: 6px 13px;
+        }
+
+        .markdown-cell table th {
+            font-weight: 600;
+            background-color: #f6f8fa;
+        }
+
+        .markdown-cell table tr:nth-child(2n) {
+            background-color: #f6f8fa;
+        }
+
+        /* Raw cell styling */
+        .raw-cell {
+            background-color: var(--jp-layout-color1);
+            border: 1px solid var(--jp-border-color1);
+            border-radius: 2px;
+            padding: 8px 12px;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            white-space: pre-wrap;
+        }
+
+        /* Empty prompt placeholder */
+        .prompt-empty {
+            color: transparent;
+        }
+
+        .export-footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid var(--jp-border-color1);
+            color: #555;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .export-footer a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        .export-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="notebook-container">
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h1>BED-1304 Python Lab</h1><br><br><h2>Øving 5 – Logikk og løkker</h2><br><br><strong>Løsningsforslag</strong>  <br><strong>Forfatter:</strong> Markus J. Aase<br><br>---<br><br>I denne notebooken finner du løsningsforslag til alle oppgavene i Øving 5.<br><br>Temaene er:<br><br>- <code>if</code>, <code>elif</code> og <code>else</code><br>- <code>for</code>-løkker<br>- <code>while</code>-løkker<br>- Kombinasjon av løkker og logikk<br></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 1 – Kvantumsrabatt</h2><br><br>En bedrift selger en vare for 200 kroner per stykk.<br><br>Rabatten er:<br><br>- 0 % ved kjøp av færre enn 50 enheter<br>- 10 % ved kjøp mellom 50 og 99 enheter<br>- 20 % ved kjøp av 100 enheter eller mer<br><br>Programmet skal beregne totalprisen etter rabatt.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [ ]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Pris per vare
+pris_per_enhet = 200
+
+# Eksempel: kunden ønsker å kjøpe 75 varer
+antall_varer = 75
+
+# Bestemmer rabatten ved hjelp av if, elif og else
+if antall_varer &lt; 50:
+    rabatt = 0
+elif antall_varer &lt; 100:
+    rabatt = 0.10
+else:
+    rabatt = 0.20
+
+# Pris før rabatt
+pris_for_rabatt = antall_varer * pris_per_enhet
+
+# Beregner totalpris etter rabatt
+totalpris = pris_for_rabatt * (1 - rabatt)
+
+print(f"Antall varer: {antall_varer}")
+print(f"Rabatt: {rabatt:.0%}")
+print(f"Totalpris: {totalpris:.2f} kr")
+</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h3>Alternativ med <code>input()</code></h3><br><br>Hvis programmet skal ta inn antall varer direkte fra brukeren, kan vi skrive:<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [ ]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Fjern kommentartegnet dersom du vil teste programmet med input()
+
+# antall_varer = int(input("Hvor mange varer ønsker kunden å kjøpe? "))
+#
+# if antall_varer &lt; 50:
+#     rabatt = 0
+# elif antall_varer &lt; 100:
+#     rabatt = 0.10
+# else:
+#     rabatt = 0.20
+#
+# totalpris = antall_varer * pris_per_enhet * (1 - rabatt)
+#
+# print(f"Totalpris etter rabatt: {totalpris:.2f} kr")
+</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 2 – Rentes rente over tid</h2><br><br>Du investerer 50 000 kroner i et indeksfond med forventet årlig avkastning på 7 %.<br><br>Bruk en <code>for</code>-løkke til å beregne saldoen for hvert av de neste 10 årene.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [ ]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Startbeløp og årlig avkastning
+saldo = 50000
+rente = 0.07
+
+# range(1, 11) gir år 1 til og med år 10
+for aar in range(1, 11):
+    # Saldoen øker med 7 % hvert år
+    saldo = saldo * (1 + rente)
+
+    print(f"År {aar}: {saldo:.2f} kr")
+</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell">Her oppdateres <code>saldo</code> én gang for hver gjennomkjøring av løkken. Dermed blir avkastningen året etter beregnet av både det opprinnelige beløpet og tidligere avkastning.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 3 – Investeringsmål</h2><br><br>Du starter med 100 000 kroner og ønsker å komme over 500 000 kroner.<br><br>Hvert år:<br><br>1. Saldoen øker med 4 % rente.<br>2. Du setter inn 30 000 kroner ved slutten av året.<br><br>Bruk en <code>while</code>-løkke til å finne hvor mange år det tar.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [ ]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Startverdier
+saldo = 100000
+maal = 500000
+rente = 0.04
+aarlig_innskudd = 30000
+aar = 0
+
+# Løkken fortsetter så lenge saldoen er under målet
+while saldo &lt; maal:
+    # Først legges årets rente til
+    saldo = saldo * (1 + rente)
+
+    # Deretter settes årets sparebeløp inn
+    saldo = saldo + aarlig_innskudd
+
+    # Ett nytt år har gått
+    aar = aar + 1
+
+    print(f"År {aar}: {saldo:.2f} kr")
+
+print(f"\nDet tar {aar} år før saldoen passerer {maal} kr.")
+</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><code>while</code>-løkken stopper automatisk når betingelsen <code>saldo < maal</code> ikke lenger er sann.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 4 – Transaksjonsanalyse</h2><br><br>Vi har følgende kontantstrøm:<br><br><code></code>`python<br>kontantstrom = [15000, -3500, -1200, 8000, -450, -2000, 5000]<br><code></code>`<br><br>Positive tall er inntekter og negative tall er utgifter.<br><br>Bruk en <code>for</code>-løkke og <code>if / else</code> til å finne:<br><br>- Summen av alle inntekter<br>- Summen av alle utgifter<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [ ]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Liste med bedriftens transaksjoner
+kontantstrom = [15000, -3500, -1200, 8000, -450, -2000, 5000]
+
+# Starter summeringen på 0
+sum_inntekter = 0
+sum_utgifter = 0
+
+# Går gjennom én transaksjon om gangen
+for transaksjon in kontantstrom:
+
+    if transaksjon &gt;= 0:
+        # Positive verdier legges til inntektene
+        sum_inntekter = sum_inntekter + transaksjon
+    else:
+        # Negative verdier legges til utgiftene
+        sum_utgifter = sum_utgifter + transaksjon
+
+print(f"Sum inntekter: {sum_inntekter} kr")
+print(f"Sum utgifter: {sum_utgifter} kr")
+</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell">Siden utgiftene er lagret som negative tall, blir <code>sum_utgifter</code> også negativ.<br><br>Hvis vi ønsker å vise utgiftene som et positivt beløp, kan vi bruke <code>abs()</code>:<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [ ]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre>print(f"Utgifter som positivt beløp: {abs(sum_utgifter)} kr")
+</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell">---<br><br><h2>Kort oppsummering</h2><br><br>I denne øvingen har vi brukt:<br><br>- <code>if</code>, <code>elif</code> og <code>else</code> til å styre hvilke deler av programmet som skal kjøres<br>- <code>for</code>-løkker til å gjenta kode et bestemt antall ganger<br>- <code>while</code>-løkker til å gjenta kode så lenge en betingelse er sann<br>- Løkker og logikk sammen for å analysere økonomiske data<br></div>
+            </div>
+        </div>
+    </div>
+    <footer class="export-footer">
+        Exported with <a href="https://www.runcell.dev/tool/ipynb-to-html">runcell</a> — convert notebooks to HTML or PDF anytime at runcell.dev.
+    </footer>
+</body>
+</html>
