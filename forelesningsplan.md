@@ -49,16 +49,16 @@ I perioden med prosjektarbeid og egenstudium vil det være mulighet for kontorti
 
 Løsningsforslag på arbeidskrav:
 
-| Arbeidskrav | Løsningsforslag |
-|-------------|-----------------|
-| Arbeidskrav 1 | [Åpne løsningsforslag](oppgaver/Arbeidskrav1_LF.html) |
-| Arbeidskrav 2 | [Åpne løsningsforslag](oppgaver/Arbeidskrav2_LF.html) |
-| Arbeidskrav 3 | [Åpne løsningsforslag](oppgaver/Arbeidskrav3_LF.html) |
-| Arbeidskrav 4 | [Åpne løsningsforslag](oppgaver/Arbeidskrav4_LF.html) |
-| Arbeidskrav 5 | [Åpne løsningsforslag](oppgaver/Arbeidskrav5_LF.html) |
-| Arbeidskrav 6 | Kommer |
-| Arbeidskrav 7 | Kommer |
-| Arbeidskrav 8 | Kommer |
+| Arbeidskrav | Løsningsforslag | Løsningsforslag ipynb filen |
+|-------------|-----------------| -----------------|
+| Arbeidskrav 1 | [Åpne løsningsforslag](oppgaver/Arbeidskrav1_LF.html) | [Last ned her](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Arbeidskrav1_LF.ipynb) |
+| Arbeidskrav 2 | [Åpne løsningsforslag](oppgaver/Arbeidskrav2_LF.html) | [Last ned her](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Arbeidskrav2_LF.ipynb) |
+| Arbeidskrav 3 | [Åpne løsningsforslag](oppgaver/Arbeidskrav3_LF.html) | [Last ned her](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Arbeidskrav3_LF.ipynb) |
+| Arbeidskrav 4 | [Åpne løsningsforslag](oppgaver/Arbeidskrav4_LF.html) | [Last ned her](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Arbeidskrav4_LF.ipynb) |
+| Arbeidskrav 5 | [Åpne løsningsforslag](oppgaver/Arbeidskrav5_LF.html) | [Last ned her](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Arbeidskrav5_LF.ipynb) |
+| Arbeidskrav 6 | Kommer | Kommer |
+| Arbeidskrav 7 | Kommer | Kommer |
+| Arbeidskrav 8 | Kommer | Kommer |
 
 I perioden 21. september til 2. november er Espen Sirnes (espen.sirnes@uit.no) studentenes kontaktpunkt. Mens Markus vil nås på mail og svare én gang i uka i den perioden.
 
