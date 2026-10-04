@@ -53,9 +53,9 @@ Løsningsforslag på arbeidskrav:
 |-------------|-----------------|
 | Arbeidskrav 1 | [Åpne løsningsforslag](oppgaver/Arbeidskrav1_LF.html) |
 | Arbeidskrav 2 | [Åpne løsningsforslag](oppgaver/Arbeidskrav2_LF.html) |
-| Arbeidskrav 3 | Kommer |
-| Arbeidskrav 4 | Kommer |
-| Arbeidskrav 5 | Kommer |
+| Arbeidskrav 3 | [Åpne løsningsforslag](oppgaver/Arbeidskrav3_LF.html) |
+| Arbeidskrav 4 | [Åpne løsningsforslag](oppgaver/Arbeidskrav4_LF.html) |
+| Arbeidskrav 5 | [Åpne løsningsforslag](oppgaver/Arbeidskrav5_LF.html) |
 | Arbeidskrav 6 | Kommer |
 | Arbeidskrav 7 | Kommer |
 | Arbeidskrav 8 | Kommer |
