@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jupyter Notebook — generated with runcell</title>
+    <meta name="description" content="Exported with runcell — convert .ipynb notebooks to HTML or PDF anytime at runcell.dev." />
+    <meta name="generator" content="runcell" />
+    <style>
+        :root {
+            --jp-code-font-family: 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
+            --jp-content-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            --jp-cell-prompt-width: 64px;
+            --jp-input-prompt-color: #307fc1;
+            --jp-output-prompt-color: #bf5b3d;
+            --jp-cell-input-bg: #f7f7f7;
+            --jp-layout-color0: #ffffff;
+            --jp-layout-color1: #f7f7f7;
+            --jp-border-color1: #e0e0e0;
+            --jp-content-font-color0: #000000;
+            --jp-content-font-color1: #333333;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--jp-content-font-family);
+            font-size: 14px;
+            line-height: 1.5;
+            color: var(--jp-content-font-color0);
+            background-color: var(--jp-layout-color0);
+            margin: 0;
+            padding: 0;
+        }
+
+        .notebook-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Cell structure */
+        .cell {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        .cell-prompt {
+            min-width: var(--jp-cell-prompt-width);
+            width: var(--jp-cell-prompt-width);
+            font-family: var(--jp-code-font-family);
+            font-size: 12px;
+            padding: 10px 8px 10px 0;
+            text-align: right;
+            flex-shrink: 0;
+            user-select: none;
+        }
+
+        .cell-content {
+            flex: 1;
+            min-width: 0;
+            overflow: hidden;
+        }
+
+        /* Input prompt styling - Jupyter blue */
+        .input-prompt {
+            color: var(--jp-input-prompt-color);
+            font-weight: bold;
+        }
+
+        /* Output prompt styling - Jupyter red/orange */
+        .output-prompt {
+            color: var(--jp-output-prompt-color);
+            font-weight: bold;
+        }
+
+        /* Code cell input area */
+        .input-area {
+            background-color: var(--jp-cell-input-bg);
+            border: 1px solid var(--jp-border-color1);
+            border-radius: 2px;
+            padding: 8px 12px;
+            overflow-x: auto;
+        }
+
+        .input-area pre {
+            margin: 0;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        /* Output area */
+        .output-area {
+            margin-top: 0;
+        }
+
+        .output-wrapper {
+            display: flex;
+            flex-direction: row;
+            margin-top: 4px;
+        }
+
+        .output-content {
+            flex: 1;
+            min-width: 0;
+            padding: 8px 0;
+        }
+
+        .output-content pre {
+            margin: 0;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        /* Stream output (stdout/stderr) */
+        .output-stream {
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .output-stderr {
+            background-color: #fdd;
+            padding: 8px 12px;
+            border-radius: 2px;
+        }
+
+        /* Execute result / display data */
+        .output-result {
+            padding: 4px 0;
+        }
+
+        .output-result pre {
+            margin: 0;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+        }
+
+        /* Image output */
+        .output-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* HTML output (DataFrames, etc.) */
+        .output-html {
+            overflow-x: auto;
+        }
+
+        .output-html table {
+            border-collapse: collapse;
+            font-size: 13px;
+            font-family: var(--jp-content-font-family);
+        }
+
+        .output-html table th,
+        .output-html table td {
+            border: 1px solid #ddd;
+            padding: 6px 10px;
+            text-align: left;
+        }
+
+        .output-html table th {
+            background-color: #f5f5f5;
+            font-weight: 600;
+        }
+
+        .output-html table tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        /* Error output */
+        .output-error {
+            background-color: #fff0f0;
+            padding: 8px 12px;
+            border-radius: 2px;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            white-space: pre-wrap;
+        }
+
+        /* Markdown cell styling */
+        .markdown-cell {
+            padding: 10px 0;
+        }
+
+        .markdown-cell h1 {
+            font-size: 2em;
+            font-weight: 600;
+            margin: 0.67em 0;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid var(--jp-border-color1);
+        }
+
+        .markdown-cell h2 {
+            font-size: 1.5em;
+            font-weight: 600;
+            margin: 0.83em 0;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid var(--jp-border-color1);
+        }
+
+        .markdown-cell h3 {
+            font-size: 1.25em;
+            font-weight: 600;
+            margin: 1em 0;
+        }
+
+        .markdown-cell h4 {
+            font-size: 1em;
+            font-weight: 600;
+            margin: 1.33em 0;
+        }
+
+        .markdown-cell h5 {
+            font-size: 0.875em;
+            font-weight: 600;
+            margin: 1.67em 0;
+        }
+
+        .markdown-cell h6 {
+            font-size: 0.85em;
+            font-weight: 600;
+            margin: 2.33em 0;
+            color: #6a737d;
+        }
+
+        .markdown-cell p {
+            margin: 0 0 16px 0;
+            line-height: 1.6;
+        }
+
+        .markdown-cell code {
+            font-family: var(--jp-code-font-family);
+            font-size: 85%;
+            background-color: rgba(27, 31, 35, 0.05);
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+        }
+
+        .markdown-cell pre {
+            background-color: var(--jp-cell-input-bg);
+            border: 1px solid var(--jp-border-color1);
+            border-radius: 3px;
+            padding: 16px;
+            overflow-x: auto;
+            font-size: 85%;
+            line-height: 1.45;
+        }
+
+        .markdown-cell pre code {
+            background-color: transparent;
+            padding: 0;
+            border-radius: 0;
+            font-size: 100%;
+        }
+
+        .markdown-cell blockquote {
+            margin: 0 0 16px 0;
+            padding: 0 1em;
+            color: #6a737d;
+            border-left: 4px solid #dfe2e5;
+        }
+
+        .markdown-cell ul,
+        .markdown-cell ol {
+            margin: 0 0 16px 0;
+            padding-left: 2em;
+        }
+
+        .markdown-cell li {
+            margin: 0.25em 0;
+        }
+
+        .markdown-cell a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        .markdown-cell a:hover {
+            text-decoration: underline;
+        }
+
+        .markdown-cell hr {
+            border: 0;
+            border-top: 1px solid var(--jp-border-color1);
+            margin: 24px 0;
+        }
+
+        .markdown-cell img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .markdown-cell table {
+            border-collapse: collapse;
+            margin: 0 0 16px 0;
+        }
+
+        .markdown-cell table th,
+        .markdown-cell table td {
+            border: 1px solid #dfe2e5;
+            padding: 6px 13px;
+        }
+
+        .markdown-cell table th {
+            font-weight: 600;
+            background-color: #f6f8fa;
+        }
+
+        .markdown-cell table tr:nth-child(2n) {
+            background-color: #f6f8fa;
+        }
+
+        /* Raw cell styling */
+        .raw-cell {
+            background-color: var(--jp-layout-color1);
+            border: 1px solid var(--jp-border-color1);
+            border-radius: 2px;
+            padding: 8px 12px;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            white-space: pre-wrap;
+        }
+
+        /* Empty prompt placeholder */
+        .prompt-empty {
+            color: transparent;
+        }
+
+        .export-footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid var(--jp-border-color1);
+            color: #555;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .export-footer a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        .export-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="notebook-container">
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h1>BED-1304 Python Lab</h1><br><br><h2>Øving 4 – Pandas og databehandling</h2><br><br><strong>Løsningsforslag</strong>  <br><strong>Forfatter:</strong> Markus J. Aase<br><br>---<br><br>I denne notebooken finner du løsningsforslag til alle oppgavene i Øving 4.<br><br>Fra og med oppgave 6 må du velge én CSV-fil fra [kurssiden](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/tree/main/data)!  <br>Sett filnavnet i variabelen <code>filnavn</code>, og legg CSV-filen i samme mappe som notebooken.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Import av Pandas</h2><br><br>Vi importerer Pandas én gang i starten av notebooken.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [1]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Importerer Pandas med standardforkortelsen (aliaset) pd
+import pandas as pd</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 1 – Lage en DataFrame</h2><br><br>Lag en DataFrame med informasjon om navn, alder og studie.<br><br>Programmet skal:<br><br>- Printe DataFrame-en<br>- Printe de første radene med <code>head()</code><br>- Printe dimensjonen med <code>shape</code><br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [2]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Lager et dictionary med dataene
+studentdata = {
+    "Navn": ["Anna", "Ole", "Kari"],
+    "Alder": [21, 22, 20],
+    "Studie": ["Økonomi", "Finans", "Regnskap"]
+}
+
+# Gjør dictionary-et om til en DataFrame
+studenter = pd.DataFrame(studentdata)
+
+# Printer hele DataFrame-en
+print("Hele DataFrame-en:")
+print(studenter)
+
+# head() viser som standard de første fem radene
+print("\nFørste rader:")
+print(studenter.head())
+
+# shape gir (antall rader, antall kolonner)
+print("\nDimensjon:")
+print(studenter.shape)
+</pre></div>
+                <div class="output-area">
+                    <div class="output-wrapper">
+                        <div class="cell-prompt output-prompt"></div>
+                        <div class="output-content">
+                            <div class="output-stream">Hele DataFrame-en:
+   Navn  Alder    Studie
+0  Anna     21   Økonomi
+1   Ole     22    Finans
+2  Kari     20  Regnskap
+
+Første rader:
+   Navn  Alder    Studie
+0  Anna     21   Økonomi
+1   Ole     22    Finans
+2  Kari     20  Regnskap
+
+Dimensjon:
+(3, 3)
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 2 – Velge kolonner</h2><br><br>Bruk DataFrame-en fra oppgave 1.<br><br>Programmet skal:<br><br>- Printe kolonnen <code>Navn</code><br>- Printe kolonnen <code>Alder</code><br>- Finne gjennomsnittsalderen<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [3]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Velger og printer kolonnen Navn
+print("Navn:")
+print(studenter["Navn"])
+
+# Velger og printer kolonnen Alder
+print("\nAlder:")
+print(studenter["Alder"])
+
+# mean() beregner gjennomsnittet
+gjennomsnittsalder = studenter["Alder"].mean()
+
+print("\nGjennomsnittsalder:", gjennomsnittsalder)
+</pre></div>
+                <div class="output-area">
+                    <div class="output-wrapper">
+                        <div class="cell-prompt output-prompt"></div>
+                        <div class="output-content">
+                            <div class="output-stream">Navn:
+0    Anna
+1     Ole
+2    Kari
+Name: Navn, dtype: object
+
+Alder:
+0    21
+1    22
+2    20
+Name: Alder, dtype: int64
+
+Gjennomsnittsalder: 21.0
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 3 – Filtrering</h2><br><br>Filtrer ut alle studenter som er eldre enn 20 år.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [4]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Lager en boolsk betingelse: Alder må være større enn 20
+eldre_enn_20 = studenter[studenter["Alder"] &gt; 20]
+
+print(eldre_enn_20)
+</pre></div>
+                <div class="output-area">
+                    <div class="output-wrapper">
+                        <div class="cell-prompt output-prompt"></div>
+                        <div class="output-content">
+                            <div class="output-stream">   Navn  Alder   Studie
+0  Anna     21  Økonomi
+1   Ole     22   Finans
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 4 – Lage ny kolonne</h2><br><br>Lag en ny kolonne som heter <code>Alder_om_5_aar</code>.<br><br>Kolonnen skal inneholde alderen til studentene om fem år.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [5]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Pandas utfører + 5 på alle radene i kolonnen samtidig
+studenter["Alder_om_5_aar"] = studenter["Alder"] + 5
+
+print(studenter)
+</pre></div>
+                <div class="output-area">
+                    <div class="output-wrapper">
+                        <div class="cell-prompt output-prompt"></div>
+                        <div class="output-content">
+                            <div class="output-stream">   Navn  Alder    Studie  Alder_om_5_aar
+0  Anna     21   Økonomi              26
+1   Ole     22    Finans              27
+2  Kari     20  Regnskap              25
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 5 – Sortering</h2><br><br>Sorter DataFrame-en etter alder i stigende rekkefølge.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [6]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># sort_values() sorterer radene etter verdiene i valgt kolonne
+studenter_sortert = studenter.sort_values(by="Alder")
+
+print(studenter_sortert)
+</pre></div>
+                <div class="output-area">
+                    <div class="output-wrapper">
+                        <div class="cell-prompt output-prompt"></div>
+                        <div class="output-content">
+                            <div class="output-stream">   Navn  Alder    Studie  Alder_om_5_aar
+2  Kari     20  Regnskap              25
+0  Anna     21   Økonomi              26
+1   Ole     22    Finans              27
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 6 – Lese inn CSV-fil</h2><br><br>Last ned én CSV-fil fra <code>data</code>-mappen på kurssiden og legg filen i samme mappe som notebooken.<br><br>Endre verdien til <code>filnavn</code> under slik at den samsvarer med filen du har lastet ned.<br><br>Eksempel:<br><br><code></code>`python<br>filnavn = "min_datafil.csv"<br><code></code>`<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [ ]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># BYTT UT med navnet på CSV-filen du har valgt fra kurssiden
+filnavn = "filnavn.csv"
+
+# Leser CSV-filen inn som en DataFrame
+data = pd.read_csv(filnavn)
+
+# Viser de første fem radene
+print("Første fem rader:")
+print(data.head())
+
+# Printer kolonnenavnene
+print("\nKolonnenavn:")
+print(data.columns)
+
+# shape gir antall rader og kolonner
+print("\nAntall rader og kolonner:")
+print(data.shape)
+
+print(f"Datasettet har {data.shape[0]} rader og {data.shape[1]} kolonner.")
+</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 7 – Enkle analyser</h2><br><br>Vi skal finne:<br><br>- Gjennomsnittet i en numerisk kolonne<br>- Største verdi<br>- Minste verdi<br><br>Siden studentene kan velge forskjellige datasett, finner vi først hvilke kolonner som er numeriske.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [ ]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Finner alle numeriske kolonner i datasettet
+numeriske_kolonner = data.select_dtypes(include="number").columns
+
+print("Numeriske kolonner:")
+print(list(numeriske_kolonner))
+</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [ ]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Velger den første numeriske kolonnen i datasettet
+valgt_kolonne = numeriske_kolonner[0]
+
+print("Valgt kolonne:", valgt_kolonne)
+
+# Beregner enkle statistiske mål
+gjennomsnitt = data[valgt_kolonne].mean()
+storste_verdi = data[valgt_kolonne].max()
+minste_verdi = data[valgt_kolonne].min()
+
+print("Gjennomsnitt:", gjennomsnitt)
+print("Største verdi:", storste_verdi)
+print("Minste verdi:", minste_verdi)
+</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell">Du kan også velge en bestemt numerisk kolonne selv, for eksempel:<br><br><code></code>`python<br>valgt_kolonne = "Pris"<br><code></code>`<br><br>dersom datasettet inneholder en kolonne med dette navnet.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 8 – Manglende verdier</h2><br><br>Bruk <code>isnull().sum()</code> for å finne antall manglende verdier i hver kolonne.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [ ]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># isnull() markerer manglende verdier.
+# sum() teller hvor mange manglende verdier hver kolonne har.
+manglende_verdier = data.isnull().sum()
+
+print("Manglende verdier per kolonne:")
+print(manglende_verdier)
+</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell">Vi kan i tillegg finne totalt antall manglende verdier i hele datasettet.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [ ]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre>totalt_manglende = data.isnull().sum().sum()
+
+print("Totalt antall manglende verdier:", totalt_manglende)
+</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 9 – Utfordring</h2><br><br>Lag en ny kolonne basert på en beregning mellom to eksisterende kolonner.<br><br>Hvilke kolonner som passer, avhenger av datasettet du valgte i oppgave 6.<br><br>Under vises først en generell løsning. Vi bruker de to første numeriske kolonnene og beregner forholdet mellom dem.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [ ]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Henter navnene på de to første numeriske kolonnene
+kolonne_1 = numeriske_kolonner[0]
+kolonne_2 = numeriske_kolonner[1]
+
+# Lager en ny kolonne som viser forholdet mellom kolonne 1 og kolonne 2.
+# Dette viser hvor mye vi har av kolonne 1 per enhet av kolonne 2.
+data["Forhold"] = data[kolonne_1] / data[kolonne_2]
+
+print(data[[kolonne_1, kolonne_2, "Forhold"]].head())
+</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h3>Eksempel på en mer meningsfull beregning</h3><br><br>Dersom datasettet for eksempel inneholder kolonnen <code>Pris</code>, kan vi lage pris inkludert 25 % moms:<br><br><code></code>`python<br>data["Pris_med_moms"] = data["Pris"] * 1.25<br><code></code>`<br><br>Hvis datasettet inneholder <code>Poengsum</code> og <code>Timer</code>, kan vi for eksempel beregne:<br><br><code></code>`python<br>data["Poeng_per_time"] = data["Poengsum"] / data["Timer"]<br><code></code>`<br><br>Det beste er å velge to kolonner der beregningen har en naturlig tolkning.<br></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell">---<br><br><h2>Kort oppsummering</h2><br><br>I denne øvingen har vi brukt Pandas til å:<br><br>- Lage en <code>DataFrame</code><br>- Velge kolonner<br>- Filtrere rader<br>- Lage nye kolonner<br>- Sortere data<br>- Lese CSV-filer med <code>pd.read_csv()</code><br>- Beregne gjennomsnitt, minimum og maksimum<br>- Finne manglende verdier<br>- Lage nye variabler basert på eksisterende data<br></div>
+            </div>
+        </div>
+    </div>
+    <footer class="export-footer">
+        Exported with <a href="https://www.runcell.dev/tool/ipynb-to-html">runcell</a> — convert notebooks to HTML or PDF anytime at runcell.dev.
+    </footer>
+</body>
+</html>
