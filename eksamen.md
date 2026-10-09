@@ -18,3 +18,5 @@
 |Eksamen                   |  2. desember; kl. 09:00-13:00        | Digital skoleeksamen  |100% av karaktergrunnlag|
 
 Arbeidskravet gjennomføres individuelt. Eksamen er individuell.
+
+Tidligere eksamen og prøveeksamen finner dere [her](https://uit-bed-1304-h26.github.io/pensum.html)!
