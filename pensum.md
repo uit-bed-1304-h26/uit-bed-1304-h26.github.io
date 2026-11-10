@@ -61,12 +61,13 @@ I denne case-oppgaven vil du bryne deg på en rekke ulike løkker, og logikk opp
 ### 🎓 Prøve-eksamen og tidligere eksamen
 Her vil det legges ut en ekstra prøve-eksamen, som er ment for repetisjon av Python lab. Les beskrivelsen i dokuementet.
 
-<p><a href="oppgaver/BED1304___Prøveeksamen__øvelse_.pdf" target="_blank">Åpne prøveeksamen i ny fane</a></p>
+<p><a href="oppgaver/BED1304___Prøveeksamen__øvelse_.pdf" target="_blank">Åpne fjorårets prøveeksamen i ny fane</a></p>
 <p><a href="oppgaver/BED1304___EKSAMEN___LF___H2025.pdf" target="_blank">Åpne fjorårets eksamen i ny fane</a></p>
 <p><a href="oppgaver/BED1304___EKSAMEN___LF___KONT___V2026.pdf" target="_blank">Åpne fjorårets konteeksamen i ny fane</a></p>
 
 **Obs:** Eksamen i år vil nok være vanskeligere enn denne prøve-eksamen og fjorårets eksamen. 
 
+### Årets prøveeksamen 🔁🎓
 Denne prøveeksamen minner mer om årets eksamen. Mitt tips til dere, er å prøve å gjennomføre eksamen uten hjelpemidler. For så bruke kollokviegrupper, løsningsforslag og diskusjoner med medstudenter for å bearbeide stoffet.
 **Det er ikke gitt** at eksamen den 2. desember blir prikk lik (selvsagt), men noe i denne gata!
 
