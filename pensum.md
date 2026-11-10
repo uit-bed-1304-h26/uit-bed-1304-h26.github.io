@@ -67,6 +67,11 @@ Her vil det legges ut en ekstra prøve-eksamen, som er ment for repetisjon av Py
 
 **Obs:** Eksamen i år vil nok være vanskeligere enn denne prøve-eksamen og fjorårets eksamen. 
 
+Denne prøveeksamen minner mer om årets eksamen. Mitt tips til dere, er å prøve å gjennomføre eksamen uten hjelpemidler. For så bruke kollokviegrupper, løsningsforslag og diskusjoner med medstudenter for å bearbeide stoffet.
+**Det er ikke gitt** at eksamen den 2. desember blir prikk lik (selvsagt), men noe i denne gata!
+
+<p><a href="oppgaver/Prøveeksamen_i_PythonBED_1304_BED_1504_SOK_3091_H26_Ferdig.pdf" target="_blank">Åpne årets prøveeksamen i ny fane</a></p>
+
 
 
 --- 
