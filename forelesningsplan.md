@@ -38,7 +38,7 @@ I dette kurset har vi et kompendium dere kan bruke til selv-studium, repetisjon,
 | 27.10.2026 12:15-13:00 | Tromsø | 🔬 9. Simulering (foreleser: Amund Jenssen) | [Forelesning](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/9%20-%20simulering.ipynb) | [Løsningsforslag](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/notebooks/9%20-%20simuleringLF.ipynb) |
 | Uke 44 (se timeplan for din seminargruppe) | Tromsø | 🔬 9. Simulering | [Seminar](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Seminar9_Simulering.ipynb) | [Løsningsforslag](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Seminar9_SimuleringLF.ipynb) |
 | 02.11.2026 12:15-16:00 | Tromsø | Sy alt sammen | Fagdag med seminarledere | |
-| 10.11.2026 12:15-16:00 | Tromsø | Sy alt sammen | Fagdag med seminarledere | |
+| 10.11.2026 12:15-16:00 | Tromsø | Sy alt sammen | [Fagdag med seminarledere](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/BED1304_Proveeksamen_Fagdag_10.11.26.ipynb) | |
 | 16.11.2026 10:15-12:00 | Tromsø | Repetisjon/oppsummering | Forelesning | |
 | 20.11.2026 10:15-12:00 | Tromsø | Repetisjon/eksamenforberedelse | Forelesning | |
 | 01.12.2026 10:15-12:00 | Tromsø | Repetisjon/eksamenforberedelse | Forelesning | |
