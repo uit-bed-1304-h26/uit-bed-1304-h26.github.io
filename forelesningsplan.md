@@ -57,8 +57,8 @@ Løsningsforslag på arbeidskrav:
 | Arbeidskrav 4 | [Åpne løsningsforslag](oppgaver/Arbeidskrav4_LF.html) | [Last ned her](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Arbeidskrav4_LF.ipynb) |
 | Arbeidskrav 5 | [Åpne løsningsforslag](oppgaver/Arbeidskrav5_LF.html) | [Last ned her](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Arbeidskrav5_LF.ipynb) |
 | Arbeidskrav 6 | [Åpne løsningsforslag](oppgaver/Arbeidskrav6_LF.html) | [Last ned her](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Arbeidskrav6_LF.ipynb) |
-| Arbeidskrav 7 | Kommer | Kommer |
-| Arbeidskrav 8 | Kommer | Kommer |
+| Arbeidskrav 7 | [Åpne løsningsforslag](oppgaver/Arbeidskrav7_LF.html) | [Last ned her](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Arbeidskrav7_LF.ipynb) |
+| Arbeidskrav 8 | [Åpne løsningsforslag](oppgaver/Arbeidskrav8_LF.html) | [Last ned her](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/Arbeidskrav8_LF.ipynb) |
 
 I perioden 21. september til 2. november er Espen Sirnes (espen.sirnes@uit.no) studentenes kontaktpunkt. Mens Markus vil nås på mail og svare én gang i uka i den perioden.
 
