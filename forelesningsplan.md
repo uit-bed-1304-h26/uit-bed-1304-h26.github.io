@@ -41,7 +41,7 @@ I dette kurset har vi et kompendium dere kan bruke til selv-studium, repetisjon,
 | 10.11.2026 12:15-16:00 | Tromsø | Sy alt sammen | [Fagdag med seminarledere](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/BED1304_Proveeksamen_Fagdag_10_11_26.ipynb) | [Løsningsforslag](https://github.com/uit-bed-1304-h26/uit-bed-1304-h26.github.io/blob/main/oppgaver/BED1304_Proveeksamen_Fagdag_10_11_26_LF.ipynb) |
 | 16.11.2026 10:15-12:00 | Tromsø | Repetisjon/oppsummering | Forelesning | |
 | 20.11.2026 10:15-12:00 | Tromsø | Repetisjon/eksamenforberedelse | Går i gjennom prøve-eksamen og spørsmål | |
-| 01.12.2026 10:15-12:00 | Tromsø | Repetisjon/eksamenforberedelse | Forelesning | |
+| 25.11.2026 10:15-12:00 | Tromsø | Kræsjkurs/eksamenforberedelse | Repetisjon | |
 | xx.12.2026 09:00-13:00 | Tromsø | DIGITAL SKOLEEKSAMEN | — | |
 
 ## Arbeidskrav og egenstudium
