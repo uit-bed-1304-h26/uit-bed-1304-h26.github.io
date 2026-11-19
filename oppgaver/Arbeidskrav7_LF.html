@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jupyter Notebook — generated with runcell</title>
+    <meta name="description" content="Exported with runcell — convert .ipynb notebooks to HTML or PDF anytime at runcell.dev." />
+    <meta name="generator" content="runcell" />
+    <style>
+        :root {
+            --jp-code-font-family: 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
+            --jp-content-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            --jp-cell-prompt-width: 64px;
+            --jp-input-prompt-color: #307fc1;
+            --jp-output-prompt-color: #bf5b3d;
+            --jp-cell-input-bg: #f7f7f7;
+            --jp-layout-color0: #ffffff;
+            --jp-layout-color1: #f7f7f7;
+            --jp-border-color1: #e0e0e0;
+            --jp-content-font-color0: #000000;
+            --jp-content-font-color1: #333333;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--jp-content-font-family);
+            font-size: 14px;
+            line-height: 1.5;
+            color: var(--jp-content-font-color0);
+            background-color: var(--jp-layout-color0);
+            margin: 0;
+            padding: 0;
+        }
+
+        .notebook-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Cell structure */
+        .cell {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        .cell-prompt {
+            min-width: var(--jp-cell-prompt-width);
+            width: var(--jp-cell-prompt-width);
+            font-family: var(--jp-code-font-family);
+            font-size: 12px;
+            padding: 10px 8px 10px 0;
+            text-align: right;
+            flex-shrink: 0;
+            user-select: none;
+        }
+
+        .cell-content {
+            flex: 1;
+            min-width: 0;
+            overflow: hidden;
+        }
+
+        /* Input prompt styling - Jupyter blue */
+        .input-prompt {
+            color: var(--jp-input-prompt-color);
+            font-weight: bold;
+        }
+
+        /* Output prompt styling - Jupyter red/orange */
+        .output-prompt {
+            color: var(--jp-output-prompt-color);
+            font-weight: bold;
+        }
+
+        /* Code cell input area */
+        .input-area {
+            background-color: var(--jp-cell-input-bg);
+            border: 1px solid var(--jp-border-color1);
+            border-radius: 2px;
+            padding: 8px 12px;
+            overflow-x: auto;
+        }
+
+        .input-area pre {
+            margin: 0;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        /* Output area */
+        .output-area {
+            margin-top: 0;
+        }
+
+        .output-wrapper {
+            display: flex;
+            flex-direction: row;
+            margin-top: 4px;
+        }
+
+        .output-content {
+            flex: 1;
+            min-width: 0;
+            padding: 8px 0;
+        }
+
+        .output-content pre {
+            margin: 0;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        /* Stream output (stdout/stderr) */
+        .output-stream {
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .output-stderr {
+            background-color: #fdd;
+            padding: 8px 12px;
+            border-radius: 2px;
+        }
+
+        /* Execute result / display data */
+        .output-result {
+            padding: 4px 0;
+        }
+
+        .output-result pre {
+            margin: 0;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+        }
+
+        /* Image output */
+        .output-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* HTML output (DataFrames, etc.) */
+        .output-html {
+            overflow-x: auto;
+        }
+
+        .output-html table {
+            border-collapse: collapse;
+            font-size: 13px;
+            font-family: var(--jp-content-font-family);
+        }
+
+        .output-html table th,
+        .output-html table td {
+            border: 1px solid #ddd;
+            padding: 6px 10px;
+            text-align: left;
+        }
+
+        .output-html table th {
+            background-color: #f5f5f5;
+            font-weight: 600;
+        }
+
+        .output-html table tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        /* Error output */
+        .output-error {
+            background-color: #fff0f0;
+            padding: 8px 12px;
+            border-radius: 2px;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            white-space: pre-wrap;
+        }
+
+        /* Markdown cell styling */
+        .markdown-cell {
+            padding: 10px 0;
+        }
+
+        .markdown-cell h1 {
+            font-size: 2em;
+            font-weight: 600;
+            margin: 0.67em 0;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid var(--jp-border-color1);
+        }
+
+        .markdown-cell h2 {
+            font-size: 1.5em;
+            font-weight: 600;
+            margin: 0.83em 0;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid var(--jp-border-color1);
+        }
+
+        .markdown-cell h3 {
+            font-size: 1.25em;
+            font-weight: 600;
+            margin: 1em 0;
+        }
+
+        .markdown-cell h4 {
+            font-size: 1em;
+            font-weight: 600;
+            margin: 1.33em 0;
+        }
+
+        .markdown-cell h5 {
+            font-size: 0.875em;
+            font-weight: 600;
+            margin: 1.67em 0;
+        }
+
+        .markdown-cell h6 {
+            font-size: 0.85em;
+            font-weight: 600;
+            margin: 2.33em 0;
+            color: #6a737d;
+        }
+
+        .markdown-cell p {
+            margin: 0 0 16px 0;
+            line-height: 1.6;
+        }
+
+        .markdown-cell code {
+            font-family: var(--jp-code-font-family);
+            font-size: 85%;
+            background-color: rgba(27, 31, 35, 0.05);
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+        }
+
+        .markdown-cell pre {
+            background-color: var(--jp-cell-input-bg);
+            border: 1px solid var(--jp-border-color1);
+            border-radius: 3px;
+            padding: 16px;
+            overflow-x: auto;
+            font-size: 85%;
+            line-height: 1.45;
+        }
+
+        .markdown-cell pre code {
+            background-color: transparent;
+            padding: 0;
+            border-radius: 0;
+            font-size: 100%;
+        }
+
+        .markdown-cell blockquote {
+            margin: 0 0 16px 0;
+            padding: 0 1em;
+            color: #6a737d;
+            border-left: 4px solid #dfe2e5;
+        }
+
+        .markdown-cell ul,
+        .markdown-cell ol {
+            margin: 0 0 16px 0;
+            padding-left: 2em;
+        }
+
+        .markdown-cell li {
+            margin: 0.25em 0;
+        }
+
+        .markdown-cell a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        .markdown-cell a:hover {
+            text-decoration: underline;
+        }
+
+        .markdown-cell hr {
+            border: 0;
+            border-top: 1px solid var(--jp-border-color1);
+            margin: 24px 0;
+        }
+
+        .markdown-cell img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .markdown-cell table {
+            border-collapse: collapse;
+            margin: 0 0 16px 0;
+        }
+
+        .markdown-cell table th,
+        .markdown-cell table td {
+            border: 1px solid #dfe2e5;
+            padding: 6px 13px;
+        }
+
+        .markdown-cell table th {
+            font-weight: 600;
+            background-color: #f6f8fa;
+        }
+
+        .markdown-cell table tr:nth-child(2n) {
+            background-color: #f6f8fa;
+        }
+
+        /* Raw cell styling */
+        .raw-cell {
+            background-color: var(--jp-layout-color1);
+            border: 1px solid var(--jp-border-color1);
+            border-radius: 2px;
+            padding: 8px 12px;
+            font-family: var(--jp-code-font-family);
+            font-size: 13px;
+            white-space: pre-wrap;
+        }
+
+        /* Empty prompt placeholder */
+        .prompt-empty {
+            color: transparent;
+        }
+
+        .export-footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid var(--jp-border-color1);
+            color: #555;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .export-footer a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        .export-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="notebook-container">
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h1>BED-1304 Python Lab</h1><br><br><h2>Øving 7 – Symbolsk matematikk med SymPy</h2><br><br><strong>Løsningsforslag</strong>  <br><strong>Forfatter:</strong> Markus J. Aase<br><br>---<br><br>I denne notebooken løser vi alle fire oppgavene i Øving 7. Vi bruker <strong>SymPy</strong> til å forenkle algebraiske uttrykk, derivere funksjoner og finne markedslikevekt.<br><br><h3>Hovedidé</h3><br><br>Symbolsk matematikk betyr at vi arbeider med eksakte uttrykk som $x^2$ og $\frac{1}{3}$, i stedet for bare numeriske tilnærminger.<br><br>Vi bruker:<br><br>1. <code>sp.symbols()</code> for matematiske symboler<br>2. <code>sp.simplify()</code> / <code>sp.cancel()</code> for forenkling<br>3. <code>sp.diff()</code> for derivasjon<br>4. <code>.subs()</code> for innsetting av verdier<br>5. <code>sp.Eq()</code> og <code>sp.solve()</code> for å løse ligninger</div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Importer bibliotek</h2><br><br>Vi importerer SymPy én gang øverst og bruker forkortelsen <code>sp</code> i hele notebooken.</div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [1]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre>import sympy as sp</pre></div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 1 – Symboler og forenkling av uttrykk</h2><br><br>Vi skal forenkle uttrykket<br><br>$$<br>f(x)=\frac{x^2-4}{x-2}.<br>$$<br><br>Først definerer vi $x$ som et symbol. Deretter skriver vi brøken i Python og bruker <code>sp.simplify()</code> eller <code>sp.cancel()</code> til å forenkle den.</div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [2]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Definerer x som et matematisk symbol
+x = sp.symbols("x")
+
+# Uttrykket f(x) fra oppgaven
+f = (x**2 - 4) / (x - 2)
+
+# Forenkler den algebraiske brøken
+forenklet = sp.simplify(f)
+
+print("Opprinnelig uttrykk f(x):", f)
+print("Forenklet uttrykk:", forenklet)</pre></div>
+                <div class="output-area">
+                    <div class="output-wrapper">
+                        <div class="cell-prompt output-prompt"></div>
+                        <div class="output-content">
+                            <div class="output-stream">Opprinnelig uttrykk f(x): (x**2 - 4)/(x - 2)
+Forenklet uttrykk: x + 2
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><strong>Forklaring:</strong> Telleren er en differanse mellom to kvadrater:<br><br>$$<br>\frac{x^2-4}{x-2}=\frac{(x-2)(x+2)}{x-2}=x+2, \qquad x\neq 2.<br>$$<br><br>Dermed får vi $f(x)=x+2$ for alle $x$ der det opprinnelige uttrykket er definert.<br><br><strong>Viktig presisering:</strong> Det opprinnelige uttrykket er <strong>ikke definert ved $x=2$</strong>, selv om $x+2$ isolert sett er definert der. Ved forkorting må vi beholde denne begrensningen.<br><br><strong>Tips:</strong> Potenser skrives med <code><strong></code> i Python, for eksempel <code>x</strong>2</code> for $x^2$. <code>sp.cancel(f)</code> er et alternativ til <code>sp.simplify(f)</code> for rasjonale uttrykk.</div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 2 – Enkel derivasjon</h2><br><br>Bedriften har kostnadsfunksjonen<br><br>$$<br>K(x)=2x^3-15x^2+50x+100,<br>$$<br><br>der $x$ er antall produserte enheter.<br><br><strong>Grensekostnaden</strong> er den deriverte av kostnadsfunksjonen:<br><br>$$<br>K'(x)=6x^2-30x+50.<br>$$<br><br>Vi beregner deretter $K'(10)$ ved å sette inn $x=10$.</div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [3]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Kostnadsfunksjonen fra oppgaven
+K = 2*x**3 - 15*x**2 + 50*x + 100
+
+# Deriverer K(x) med hensyn på x
+grensekostnad = sp.diff(K, x)
+
+# Setter inn produksjonsnivået x = 10
+grensekostnad_10 = grensekostnad.subs(x, 10)
+
+print("Kostnadsfunksjon K(x):", K)
+print("Grensekostnad K'(x):", grensekostnad)
+print("Grensekostnad ved x = 10:", grensekostnad_10, "kr per enhet")</pre></div>
+                <div class="output-area">
+                    <div class="output-wrapper">
+                        <div class="cell-prompt output-prompt"></div>
+                        <div class="output-content">
+                            <div class="output-stream">Kostnadsfunksjon K(x): 2*x**3 - 15*x**2 + 50*x + 100
+Grensekostnad K'(x): 6*x**2 - 30*x + 50
+Grensekostnad ved x = 10: 350 kr per enhet
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><strong>Utregning og tolkning:</strong><br><br>$$<br>K'(10)=6\cdot10^2-30\cdot10+50=600-300+50=350.<br>$$<br><br>Grensekostnaden ved produksjon på 10 enheter er <strong>350 kr per enhet</strong>. Det betyr at kostnadene øker med om lag 350 kr for en liten økning på én enhet når produksjonen ligger rundt 10 enheter. Den deriverte er en <em>marginal</em> endringsrate, ikke nødvendigvis den eksakte kostnadsøkningen fra 10 til 11 enheter.<br><br><strong>Tips:</strong> <code>sp.diff(K, x)</code> finner den deriverte symbolsk. <code>.subs(x, 10)</code> setter inn en verdi i uttrykket.</div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 3 – Derivasjon med kjerneregelen</h2><br><br>Vi skal derivere<br><br>$$<br>g(x)=(3x^2+2x)^4.<br>$$<br><br>Her er $u(x)=3x^2+2x$ den indre funksjonen, og den ytre funksjonen er $u^4$.<br><br>Kjerneregelen gir<br><br>$$<br>g'(x)=4(3x^2+2x)^3\,(6x+2).<br>$$<br><br>SymPy anvender kjerneregelen automatisk.</div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [4]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Funksjonen g(x) fra oppgaven
+g = (3*x**2 + 2*x)**4
+
+# Deriverer g(x) med hensyn på x
+g_derivert = sp.diff(g, x)
+
+# factor() gir en alternativ, faktorisert form
+print("Funksjonen g(x):", g)
+print("Den deriverte g'(x):", g_derivert)
+print("Faktorisert svar:", sp.factor(g_derivert))</pre></div>
+                <div class="output-area">
+                    <div class="output-wrapper">
+                        <div class="cell-prompt output-prompt"></div>
+                        <div class="output-content">
+                            <div class="output-stream">Funksjonen g(x): (3*x**2 + 2*x)**4
+Den deriverte g'(x): (24*x + 8)*(3*x**2 + 2*x)**3
+Faktorisert svar: 8*x**3*(3*x + 1)*(3*x + 2)**3
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><strong>Forklaring:</strong> Først deriverer vi den ytre potensen: $4u^3$. Deretter multipliserer vi med den deriverte av det indre uttrykket, $u'(x)=6x+2$.<br><br>Vi får dermed<br><br>$$<br>g'(x)=4(6x+2)(3x^2+2x)^3.<br>$$<br><br><strong>Tips:</strong> SymPy kan skrive resultatet på en annen, men matematisk ekvivalent måte. <code>sp.factor()</code> kan brukes til å faktorisere et uttrykk, mens <code>sp.expand()</code> utvider parentesene.</div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Oppgave 4 – Økonomisk likevekt: Tilbud og etterspørsel</h2><br><br>Vi har et marked med prisfunksjonene<br><br>$$<br>P_d(Q)=200-4Q, \qquad P_s(Q)=50+2Q.<br>$$<br><br>$P_d$ er etterspørselsprisen (betalingsvillighet), og $P_s$ er tilbudsprisen (produsentenes priskrav).<br><br>I markedslikevekt er prisene like:<br><br>$$<br>200-4Q=50+2Q.<br>$$<br><br>Vi bruker SymPy til først å løse for likevektsmengden $Q^<em>$ og deretter beregne likevektsprisen $P^</em>$.</div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [5]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Definerer mengden Q som symbol
+Q = sp.symbols("Q")
+
+# Etterspørsels- og tilbudsfunksjonene fra oppgaven
+Pd = 200 - 4*Q  # Kundenes betalingsvillighet
+Ps = 50 + 2*Q   # Produsentenes priskrav
+
+# Setter etterspørsel lik tilbud
+likevektsligning = sp.Eq(Pd, Ps)
+
+# Løser ligningen med hensyn på Q
+losninger = sp.solve(likevektsligning, Q)
+likevektsmengde = losninger[0]
+
+# Setter likevektsmengden inn i etterspørselsfunksjonen
+likevektspris = Pd.subs(Q, likevektsmengde)
+
+print("Likevektsligning:", likevektsligning)
+print("Løsninger for Q:", losninger)
+print("Likevektsmengde Q*:", likevektsmengde, "enheter")
+print("Likevektspris P*:", likevektspris, "kr")</pre></div>
+                <div class="output-area">
+                    <div class="output-wrapper">
+                        <div class="cell-prompt output-prompt"></div>
+                        <div class="output-content">
+                            <div class="output-stream">Likevektsligning: Eq(200 - 4*Q, 2*Q + 50)
+Løsninger for Q: [25]
+Likevektsmengde Q*: 25 enheter
+Likevektspris P*: 100 kr
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><strong>Løsning for hånd:</strong><br><br>$$<br>200-4Q=50+2Q<br>\quad\Longleftrightarrow\quad<br>150=6Q<br>\quad\Longleftrightarrow\quad<br>Q^*=25.<br>$$<br><br>Vi setter deretter $Q^*=25$ inn i én av prisfunksjonene:<br><br>$$<br>P^*=200-4\cdot25=100.<br>$$<br><br><strong>Svar:</strong> Likevektsmengden er <strong>25 enheter</strong>, og likevektsprisen er <strong>100 kr</strong>.<br><br>Som ekstra kontroll kan vi sette $Q=25$ inn i begge prisfunksjonene. De skal gi samme pris.</div>
+            </div>
+        </div>
+        <div class="cell cell-code">
+            <div class="cell-prompt input-prompt">In [6]:</div>
+            <div class="cell-content">
+                <div class="input-area"><pre># Kontrollerer at tilbud og etterspørsel gir samme pris
+pris_fra_ettersporsel = Pd.subs(Q, likevektsmengde)
+pris_fra_tilbud = Ps.subs(Q, likevektsmengde)
+
+print("Pris fra etterspørsel:", pris_fra_ettersporsel, "kr")
+print("Pris fra tilbud:", pris_fra_tilbud, "kr")
+print("Er prisene like?", pris_fra_ettersporsel == pris_fra_tilbud)
+
+assert pris_fra_ettersporsel == pris_fra_tilbud</pre></div>
+                <div class="output-area">
+                    <div class="output-wrapper">
+                        <div class="cell-prompt output-prompt"></div>
+                        <div class="output-content">
+                            <div class="output-stream">Pris fra etterspørsel: 100 kr
+Pris fra tilbud: 100 kr
+Er prisene like? True
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><strong>Tolkning:</strong> Ved en mengde på 25 enheter er både kundenes betalingsvillighet og produsentenes priskrav 100 kr. Dette er markedslikevekten i modellen.<br><br><strong>Tips:</strong> <code>sp.Eq(Pd, Ps)</code> lager ligningen. <code>sp.solve(..., Q)</code> finner verdien(e) av $Q$ som oppfyller den. <code>.subs()</code> brukes deretter til å finne tilhørende pris.</div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell">---<br><br><h1>Hva kjennetegner en god besvarelse?</h1><br><br>En god besvarelse trenger ikke å være avansert. Den bør være <strong>korrekt, kjørbar og lett å forstå</strong>.<br><br><h3>1. Koden kan kjøres fra topp til bunn</h3><br>- Importer <code>sympy as sp</code> øverst.<br>- Definer symbolene før du bruker dem.<br>- Unngå å bruke variabler som ikke er definert.<br><br><h3>2. Riktige SymPy-funksjoner brukes</h3><br>- <code>sp.symbols()</code> oppretter symboler.<br>- <code>sp.simplify()</code> eller <code>sp.cancel()</code> forenkler algebraiske uttrykk.<br>- <code>sp.diff()</code> finner deriverte funksjoner.<br>- <code>.subs()</code> setter inn tallverdier.<br>- <code>sp.Eq()</code> og <code>sp.solve()</code> finner løsningen på en ligning.<br><br><h3>3. Svarene forklares</h3><br>- Bruk tydelige <code>print()</code>-utskrifter.<br>- Oppgi enheter som kroner, kroner per enhet eller antall enheter der dette passer.<br>- Forklar kort hva resultatet betyr, ikke bare hvilket tall programmet skriver ut.<br><br><h3>4. Koden dokumenteres</h3><br>- Kommentarer bør forklare hva et steg gjør og hvorfor.<br>- Unngå kommentarer som kun gjentar selve kodelinjen.<br><br><h3>5. Kontroller resultatene</h3><br>- Se etter verdier som gir mening i den økonomiske sammenhengen.<br>- For markedslikevekt skal tilbuds- og etterspørselspris være like.<br>- For forenklede brøkuttrykk må man huske hvilke verdier som ikke var lovlige i originaluttrykket.</div>
+            </div>
+        </div>
+        <div class="cell cell-markdown">
+            <div class="cell-prompt prompt-empty">&nbsp;</div>
+            <div class="cell-content">
+                <div class="markdown-cell"><h2>Kort oppsummering</h2><br><br>I denne øvingen har vi brukt:<br><br>- <code>sp.symbols("x")</code> til å definere matematisk symbol<br>- <code>sp.simplify()</code> til å forenkle $\frac{x^2-4}{x-2}$ til $x+2$, for $x\ne2$<br>- <code>sp.diff()</code> til å beregne grensekostnaden $K'(x)=6x^2-30x+50$<br>- <code>.subs()</code> til å finne $K'(10)=350$<br>- Kjerneregelen til å derivere $(3x^2+2x)^4$<br>- <code>sp.Eq()</code> og <code>sp.solve()</code> til å finne $Q^<em>=25$ og $P^</em>=100$ i markedslikevekt<br><br><strong>Husk:</strong> Kjør alle cellene før du lagrer notebooken. Da blir beregningsresultatene synlige i den innleverte filen.</div>
+            </div>
+        </div>
+    </div>
+    <footer class="export-footer">
+        Exported with <a href="https://www.runcell.dev/tool/ipynb-to-html">runcell</a> — convert notebooks to HTML or PDF anytime at runcell.dev.
+    </footer>
+</body>
+</html>
