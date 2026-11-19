@@ -74,6 +74,10 @@ Obs, brukt *ordbok* i steden for *dictionary* her. Alle slike ting vil være 100
 
 <p><a href="oppgaver/Prøveeksamen_i_PythonBED_1304_BED_1504_SOK_3091_H26_Ferdig.pdf" target="_blank">Åpne årets prøveeksamen i ny fane</a></p>
 
+### Ekstra prøveeksamen
+Her er enda en prøveeksamen. Denne gir en god indikasjon på hvordan eksamen blir.
+<p><a href="oppgaver/Extra_Proveeksman_H26_BED1304.pdf" target="_blank">Åpne årets prøveeksamen i ny fane</a></p>
+
 
 
 --- 
